@@ -11,7 +11,7 @@
                 "-O0",
                 "-std=c++17",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}.bin"
             ],
             "group": {
                 "kind": "build",

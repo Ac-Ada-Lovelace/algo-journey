@@ -1,34 +1,38 @@
 # Repository Guidelines
 
-## Project Structure & Module Organization
-- Top-level directories map to problem sources: `codeforce`, `leetcode`, `luogu`, and `prac`.
-- Each problem in `prac` now lives in its own folder following the pattern `Identifier Human-Readable Title` (e.g., `prac/UVa1586 Molar Mass/`); keep supporting assets (notes, binaries) beside the solution.
-- Shared headers such as `bits/stdc++.h` sit under each platform's `bits/` subfolder—include them via `-Icodeforce/bits` or the matching path for cross-platform reuse.
-- Avoid reintroducing loose `.cpp` files at the root; create a new folder immediately when adding a problem.
+## 项目结构与模块划分
 
-## Build, Test, and Development Commands
-- Compile single-file solutions with g++17 and the shared bits header, e.g.:
+- 顶层按平台划分：`codeforce`、`leetcode`、`luogu`、`prac`；平台特有的 `bits/stdc++.h` 放在各自的 `bits/` 目录里，编译时使用 `-I<platform>/bits`。
+- `prac` 中的每道题都使用 `题目标识符 空格 题目中文名` 作为文件夹名（例如 `prac/UVa1586 Molar Mass/`），同目录下可存放样例、笔记与可执行文件。
+- 新题目必须直接建立对应目录，避免在 `prac` 根目录留下散落的 `.cpp`。
+- 共享输出或临时数据请放在 `prac/output/` 一类的公共目录中，并视需要加入 `.gitignore`。
+
+## 构建、测试与本地开发
+
+- 推荐命令：
   ```bash
   g++ -std=c++17 -O2 -Wall -Wextra -Iprac/bits \
-      prac/UVa455\ Count\ Num/count_num_UVa455.cpp -o build/count_num
+      prac/UVa455\ Count\ Num/count_num_UVa455.cpp \
+      -o build/count_num.bin
+  ./build/count_num.bin < sample.in
   ```
-- Run the produced binary directly (`./build/count_num < sample.in`). Keep binaries inside the per-problem folder or `build/` and add them to `.gitignore` if they are disposable.
-- For quick experiments, mirror the pattern used in `prac/Practice Decimal Expansion/` where both source and helper executables are colocated.
+  产物统一使用 `.bin` 后缀，便于被忽略或清理。
+- 临时调试可直接将可执行文件放在题目目录，但提交前删除或写入 `.gitignore`。
 
-## Coding Style & Naming Conventions
-- Use C++17, include `bits/stdc++.h`, and prefer the STL.
-- Indent with two spaces, brace on the same line as the control statement, and keep lines under 100 columns.
-- Name new directories and files descriptively: `<JudgeID><space><Short Title>/<slug>.cpp` or `Practice <Topic>/<topic>.cpp` for non-judge drills.
-- Print statements should be English unless the problem demands otherwise.
+## 代码风格与命名
 
-## Testing Guidelines
-- No global framework exists; rely on deterministic stdin/stdout tests.
-- Store reusable samples as `.txt` files inside the problem folder (e.g., `prac/UVa232 Crossword Answers/cases/input1.txt`) and document the command used to run them.
-- When floating-point output matters, set precision explicitly (see `prac/Practice Sum Of Subsequence/sum_of_subsquence.cpp`).
-- Before committing, rerun any binaries touched and capture edge cases (minimum/maximum constraints, empty input).
+- 统一使用 C++17 与 `bits/stdc++.h`；缩进为两个空格，花括号与控制语句同行，单行不超过 100 列。
+- 变量名尽量语义化，函数使用 lowerCamelCase；常量使用全大写加下划线。
+- 由于仓库默认中文交流，代码注释与 README 亦以中文为主（题面需英文的除外）。
 
-## Commit & Pull Request Guidelines
-- Follow the short, imperative style already in history (`add molar_mass`, `fix: resolve merge conflict`).
-- Each commit should touch a single logical change: new problem, refactor, or docs update.
-- Pull requests should summarize the problem solved, steps to reproduce the fix/run, and include sample I/O when relevant; link issue IDs or judge URLs for traceability.
-- Highlight any generated artifacts that should remain ignored so reviewers can cleanly rebuild.
+## 测试指引
+
+- 目前无统一框架，直接用标准输入输出驱动，必要时把样例写成 `input1.txt`、`output1.txt` 放在题目目录。
+- 处理浮点题目务必设定精度（参见 `prac/Practice Sum Of Subsequence/sum_of_subsquence.cpp`），并测试极端范围。
+- 每次修改后至少手动跑一遍对应 `.bin`，并记录命令行以便复现。
+
+## 提交与 PR 规范
+
+- 沿用历史中的简短祈使句提交信息，如 `add molar_mass`、`fix build`；同一次提交只做一类修改。
+- PR 描述需写明解决的问题、运行命令、样例输入输出，并附上题目链接；仓库交流默认使用中文。
+- 若生成了 `.bin`、日志或大文件，请在描述中说明是否忽略，以便审核者同步环境。

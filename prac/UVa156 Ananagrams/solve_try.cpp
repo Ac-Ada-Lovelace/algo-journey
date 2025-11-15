@@ -10,7 +10,7 @@ string lowercase(string::iterator begin, string::iterator end) {
     return res;
 }
 string re_shape(string origin_word) {
-    lowercase(origin_word.begin(), origin_word.end());
+    origin_word = lowercase(origin_word.begin(), origin_word.end());
 
     vector<char> chars(origin_word.begin(), origin_word.end());
     sort(chars.begin(), chars.end());
@@ -22,29 +22,44 @@ int main() {
     cin.tie(nullptr);
 
     string line;
-    map<string, int> dict;
+    string word;
+    map<string, vector<string>> dict;
     while (getline(cin, line)) {
         if (line == "#") {
             break;
         }
-        string word;
+        word.clear();
         for (auto c : line) {
             if (isalpha(static_cast<unsigned char>(c))) {
                 word.push_back(c);
-            } else {
+            } else if (!word.empty()) {
                 auto reshaped = re_shape(word);
                 if (dict.find(reshaped) == dict.end()) {
-                    dict[reshaped] = 1;
+                    dict[reshaped] = vector<string>{word};
                 } else {
-                    dict[reshaped]++;
+                    dict[reshaped].push_back(word);
                 }
+                word.clear();
             }
         }
-    }
-
-    for (auto w : dict) {
-        if (w.second == 1) {
-            cout << w.first << '\n';
+        if (!word.empty()) {
+            auto reshaped = re_shape(word);
+            if (dict.find(reshaped) == dict.end()) {
+                dict[reshaped] = vector<string>{word};
+            } else {
+                dict[reshaped].push_back(word);
+            }
+            word.clear();
         }
+    }
+    vector<string> res;
+    for (auto w : dict) {
+        if (w.second.size() == 1) {
+            res.push_back(w.second[0]);
+        }
+    }
+    sort(res.begin(), res.end());
+    for (auto w : res) {
+        cout << w << '\n';
     }
 }

@@ -26,6 +26,33 @@
                 "focus": false,
                 "panel": "shared"
             }
+        },
+        {
+            "label": "GNU C++ Compile for Debug",
+            "type": "shell",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g3",
+                "-O0",
+                "-std=c++17",
+                "-Wall",
+                "-Wextra",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.debug.bin"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
         }
     ]
 }

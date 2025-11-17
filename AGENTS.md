@@ -65,7 +65,10 @@
 
 - 若需按 `prac/UVa<ID> 标题/p<ID>.pdf` 的约定拉取 UVA 题面，可使用 `tool/scripts/fetch_uva_pdf.py`。示例命令：
   ```bash
+  # 仅给题号会自动从三份 JSON 目录查标题
+  python tool/scripts/fetch_uva_pdf.py 210
+  # 若标题未收录，可手动指定
   python tool/scripts/fetch_uva_pdf.py 210 "Concurrency Simulator"
   ```
-  该脚本会自动创建 `prac/UVa210 Concurrency Simulator/` 目录并下载 `https://onlinejudge.org/external/2/210.pdf` 保存为 `p210.pdf`。文件存在时默认跳过，若需覆盖可追加 `--overwrite`，若想放在其他根目录则使用 `--root <dir>`。
+  脚本会在仓库根目录的 `Beginning_Algorithm_Contests*.json` 中查找 `ID - 标题`，若找到就用其命名目录；否则提示补充标题。下载成功后会创建 `prac/UVa210 Concurrency Simulator/` 并保存 `p210.pdf`。文件存在时默认跳过，需覆盖请加 `--overwrite`，如需修改输出位置或 JSON 所在目录，可用 `--root <dir>`、`--catalog-root <dir>`。
 - 请确保运行命令时网络可用（脚本使用官方 UVA PDF 链接），若下载失败会在终端输出具体 HTTP/连接错误，按提示重试或改用本地缓存。

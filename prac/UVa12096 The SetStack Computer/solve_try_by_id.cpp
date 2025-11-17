@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#include <cinttypes>
 using namespace std;
 
 vector<string> get_elements(string set_string) {
@@ -149,5 +148,4 @@ int main() {
             }
         }
     }
-    helllo
 }

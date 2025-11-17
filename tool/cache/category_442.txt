@@ -1,0 +1,124 @@
+== Category 442 ==
+  Chapter 1. Algorithm Design:
+    - Chapter 1. Algorithm Design > General Problem Solving Techniques > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=456
+    - Chapter 1. Algorithm Design > General Problem Solving Techniques > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=457
+    - Chapter 1. Algorithm Design > General Problem Solving Techniques > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=512
+    - Chapter 1. Algorithm Design > General Problem Solving Techniques > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=458
+    - Chapter 1. Algorithm Design > Designing Efficient Algorithms > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=460
+    - Chapter 1. Algorithm Design > Designing Efficient Algorithms > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=461
+    - Chapter 1. Algorithm Design > Designing Efficient Algorithms > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=513
+    - Chapter 1. Algorithm Design > Designing Efficient Algorithms > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=462
+    - Chapter 1. Algorithm Design > Dynamic Programming > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=464
+    - Chapter 1. Algorithm Design > Dynamic Programming > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=465
+    - Chapter 1. Algorithm Design > Dynamic Programming > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=514
+    - Chapter 1. Algorithm Design > Dynamic Programming > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=466
+  Chapter 2. Mathematics:
+    - Chapter 2. Mathematics > Counting > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=469
+    - Chapter 2. Mathematics > Counting > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=470
+    - Chapter 2. Mathematics > Counting > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=515
+    - Chapter 2. Mathematics > Counting > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=471
+    - Chapter 2. Mathematics > Number Theory > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=473
+    - Chapter 2. Mathematics > Number Theory > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=474
+    - Chapter 2. Mathematics > Number Theory > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=516
+    - Chapter 2. Mathematics > Number Theory > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=475
+    - Chapter 2. Mathematics > Game Theory > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=477
+    - Chapter 2. Mathematics > Game Theory > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=478
+    - Chapter 2. Mathematics > Game Theory > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=517
+    - Chapter 2. Mathematics > Game Theory > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=479
+    - Chapter 2. Mathematics > Probability > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=481
+    - Chapter 2. Mathematics > Probability > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=482
+    - Chapter 2. Mathematics > Probability > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=518
+    - Chapter 2. Mathematics > Probability > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=483
+    - Chapter 2. Mathematics > Permutation > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=485
+    - Chapter 2. Mathematics > Permutation > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=486
+    - Chapter 2. Mathematics > Permutation > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=519
+    - Chapter 2. Mathematics > Permutation > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=487
+    - Chapter 2. Mathematics > Matrix & System of Linear Equations > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=489
+    - Chapter 2. Mathematics > Matrix & System of Linear Equations > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=490
+    - Chapter 2. Mathematics > Matrix & System of Linear Equations > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=520
+    - Chapter 2. Mathematics > Matrix & System of Linear Equations > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=491
+    - Chapter 2. Mathematics > Numerical Methods > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=493
+    - Chapter 2. Mathematics > Numerical Methods > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=494
+    - Chapter 2. Mathematics > Numerical Methods > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=521
+    - Chapter 2. Mathematics > Numerical Methods > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=495
+  Chapter 3. Data Structures:
+    - Chapter 3. Data Structures > Fundamental Data Structures > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=497
+    - Chapter 3. Data Structures > Fundamental Data Structures > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=498
+    - Chapter 3. Data Structures > Fundamental Data Structures > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=522
+    - Chapter 3. Data Structures > Fundamental Data Structures > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=499
+    - Chapter 3. Data Structures > Maintaining Interval Data > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=501
+    - Chapter 3. Data Structures > Maintaining Interval Data > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=502
+    - Chapter 3. Data Structures > Maintaining Interval Data > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=523
+    - Chapter 3. Data Structures > Maintaining Interval Data > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=503
+    - Chapter 3. Data Structures > String Algorithms > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=505
+    - Chapter 3. Data Structures > String Algorithms > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=506
+    - Chapter 3. Data Structures > String Algorithms > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=524
+    - Chapter 3. Data Structures > String Algorithms > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=507
+    - Chapter 3. Data Structures > Binary Search Trees > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=509
+    - Chapter 3. Data Structures > Binary Search Trees > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=510
+    - Chapter 3. Data Structures > Binary Search Trees > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=525
+    - Chapter 3. Data Structures > Binary Search Trees > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=511
+  Chapter 4. Geometry:
+    - Chapter 4. Geometry > Geometric Computations in 2D > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=528
+    - Chapter 4. Geometry > Geometric Computations in 2D > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=529
+    - Chapter 4. Geometry > Geometric Computations in 2D > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=530
+    - Chapter 4. Geometry > Geometric Computations in 2D > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=531
+    - Chapter 4. Geometry > Geometric Algorithms in 2D > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=533
+    - Chapter 4. Geometry > Geometric Algorithms in 2D > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=534
+    - Chapter 4. Geometry > Geometric Algorithms in 2D > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=535
+    - Chapter 4. Geometry > Geometric Algorithms in 2D > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=536
+    - Chapter 4. Geometry > Geometric Computations and Algorithms in 3D > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=538
+    - Chapter 4. Geometry > Geometric Computations and Algorithms in 3D > Exercises: Beginner -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=539
+    - Chapter 4. Geometry > Geometric Computations and Algorithms in 3D > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=540
+    - Chapter 4. Geometry > Geometric Computations and Algorithms in 3D > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=541
+  Chapter 5. Graph Theory:
+    - Chapter 5. Graph Theory > Fundamentals > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=543
+    - Chapter 5. Graph Theory > Fundamentals > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=599
+    - Chapter 5. Graph Theory > Fundamentals > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=600
+    - Chapter 5. Graph Theory > Fundamentals > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=601
+    - Chapter 5. Graph Theory > DFS (Depth First Search) > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=545
+    - Chapter 5. Graph Theory > DFS (Depth First Search) > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=546
+    - Chapter 5. Graph Theory > DFS (Depth First Search) > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=547
+    - Chapter 5. Graph Theory > DFS (Depth First Search) > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=548
+    - Chapter 5. Graph Theory > Shortest Paths > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=550
+    - Chapter 5. Graph Theory > Shortest Paths > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=551
+    - Chapter 5. Graph Theory > Shortest Paths > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=552
+    - Chapter 5. Graph Theory > Shortest Paths > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=553
+    - Chapter 5. Graph Theory > Minimal Spanning Tree and Variants > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=555
+    - Chapter 5. Graph Theory > Minimal Spanning Tree and Variants > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=556
+    - Chapter 5. Graph Theory > Minimal Spanning Tree and Variants > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=557
+    - Chapter 5. Graph Theory > Minimal Spanning Tree and Variants > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=558
+    - Chapter 5. Graph Theory > Bipartite Graph Matching > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=560
+    - Chapter 5. Graph Theory > Bipartite Graph Matching > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=561
+    - Chapter 5. Graph Theory > Bipartite Graph Matching > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=562
+    - Chapter 5. Graph Theory > Bipartite Graph Matching > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=563
+    - Chapter 5. Graph Theory > Network Flows > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=565
+    - Chapter 5. Graph Theory > Network Flows > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=566
+    - Chapter 5. Graph Theory > Network Flows > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=567
+    - Chapter 5. Graph Theory > Network Flows > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=568
+  Chapter 6. Selected Topics:
+    - Chapter 6. Selected Topics > Dynamic Programming on Borderline > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=570
+    - Chapter 6. Selected Topics > Dynamic Programming on Borderline > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=571
+    - Chapter 6. Selected Topics > Dynamic Programming on Borderline > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=572
+    - Chapter 6. Selected Topics > Dynamic Programming on Borderline > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=573
+    - Chapter 6. Selected Topics > Advanced Data Structure Topics > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=575
+    - Chapter 6. Selected Topics > Advanced Data Structure Topics > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=576
+    - Chapter 6. Selected Topics > Advanced Data Structure Topics > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=577
+    - Chapter 6. Selected Topics > Advanced Data Structure Topics > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=578
+    - Chapter 6. Selected Topics > Brute Force > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=580
+    - Chapter 6. Selected Topics > Brute Force > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=581
+    - Chapter 6. Selected Topics > Brute Force > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=582
+    - Chapter 6. Selected Topics > Brute Force > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=583
+    - Chapter 6. Selected Topics > Selected Topics in Geometry > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=585
+    - Chapter 6. Selected Topics > Selected Topics in Geometry > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=586
+    - Chapter 6. Selected Topics > Selected Topics in Geometry > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=587
+    - Chapter 6. Selected Topics > Selected Topics in Geometry > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=588
+    - Chapter 6. Selected Topics > Selected Topics in Mathematics > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=590
+    - Chapter 6. Selected Topics > Selected Topics in Mathematics > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=591
+    - Chapter 6. Selected Topics > Selected Topics in Mathematics > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=592
+    - Chapter 6. Selected Topics > Selected Topics in Mathematics > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=593
+    - Chapter 6. Selected Topics > Writing and Debugging Complex Codes > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=595
+    - Chapter 6. Selected Topics > Writing and Debugging Complex Codes > Exercises: Beginners -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=596
+    - Chapter 6. Selected Topics > Writing and Debugging Complex Codes > Exercises: Intermediate -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=597
+    - Chapter 6. Selected Topics > Writing and Debugging Complex Codes > Exercises: Advanced -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=598
+

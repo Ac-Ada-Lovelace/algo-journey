@@ -44,6 +44,28 @@
 
 ## Codex 使用习惯
 
-1. “讲题面”代表要尽可能根据题目文件夹内的 PDF 或参考资料逐句讲解；若缺少本地资料，可联网查询补充。对于叙述性，背景性的问题，可以逐字翻译，对于一些文化性的问题，可以适当补充背景知识。
+1. “讲题面”代表要尽可能根据题目文件夹内的 PDF 或参考资料逐句讲解；若缺少本地资料，可联网查询补充。对于叙述性，背景性的问题，可以逐字翻译，对于一些文化性的问题，可以适当补充背景知识；讲解时务必明确交代题目的整体流程、输入结构（字段含义、范围、顺序）与输出要求（格式、含义），必要时可引用样例说明。涉及样例时，先逐字重 Sample Input/Output，再跟随文字解释；若样例含多个 case，应分隔逐个说明。
 2. “看代码问题”只需指出代码中的问题，不要直接修改；只有在明确要求“给出正确代码”时，才新建文件给出实现，禁止覆盖原始文件。
-3. 所有讲解、说明与答复一律使用中文。
+3. 若用户要求“写代码”或“给出正确代码”，除非明确同意修改现有文件，否则需在相应目录新建文件保存方案，禁止直接覆盖或编辑用户已有代码。
+4. 运行需要脚本的命令时，请把脚本放在 `tool/` 下（按用途建子目录），执行完毕也不要删除；缓存或临时数据也放在 `tool/` 体系内，以便复用。
+5. 所有讲解、说明与答复一律使用中文。
+
+## 书目题单 JSON 使用指南
+
+- 根目录新增三份以 `Beginning_Algorithm_Contests*.json` 命名的题目目录，分别对应 AOAPC 第一版、第二版与 Training Guide。文件顶层是一个对象，统一包含 `name`（章节或题目标题）、`url`（原题链接）、`kind`（`FOLDER`/`FILE`）以及 `children`（子节点数组）。`FILE` 节点表示具体题目，`FOLDER` 节点表示章节或小节。
+- 需要查找题目时，优先使用 `jq` 沿树遍历，例如：
+  ```bash
+  jq '.. | objects | select(.kind=="FILE" and (.name|test("10055"))) | {name,url}' Beginning_Algorithm_Contests.json
+  ```
+  也可以先列出章节：`jq -r '.children[].name' Beginning_Algorithm_Contests_(Second_Edition).json`。
+- 讲解或整理题单时，请引用 JSON 中的 `name` 与 `url`，并将章节层级反映在描述里（如“Volume 0 ▶ 10055 - Hashmat...”），方便他人定位。
+- 若需批量提取信息（例如生成练习计划），可以把 JSON 管道给自定义脚本，但脚本仍需放在 `tool/` 目录下，且不要直接编辑原始 JSON。
+
+## 题面下载工具
+
+- 若需按 `prac/UVa<ID> 标题/p<ID>.pdf` 的约定拉取 UVA 题面，可使用 `tool/scripts/fetch_uva_pdf.py`。示例命令：
+  ```bash
+  python tool/scripts/fetch_uva_pdf.py 210 "Concurrency Simulator"
+  ```
+  该脚本会自动创建 `prac/UVa210 Concurrency Simulator/` 目录并下载 `https://onlinejudge.org/external/2/210.pdf` 保存为 `p210.pdf`。文件存在时默认跳过，若需覆盖可追加 `--overwrite`，若想放在其他根目录则使用 `--root <dir>`。
+- 请确保运行命令时网络可用（脚本使用官方 UVA PDF 链接），若下载失败会在终端输出具体 HTTP/连接错误，按提示重试或改用本地缓存。

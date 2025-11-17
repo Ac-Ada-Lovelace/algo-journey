@@ -1,0 +1,10 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -Wshadow
+    - -Wconversion
+    - -Wsign-conversion
+    - -Wuninitialized

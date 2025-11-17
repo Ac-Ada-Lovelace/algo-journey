@@ -1,0 +1,32 @@
+== Category 827 ==
+  Chapter 3. Arrays and Strings:
+    - Chapter 3. Arrays and Strings > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=829
+    - Chapter 3. Arrays and Strings > Exercises -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=830
+  Chapter 4. Functions and Recursion:
+    - Chapter 4. Functions and Recursion > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=832
+    - Chapter 4. Functions and Recursion > Exercises -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=833
+  Chapter 5. C++ and STL:
+    - Chapter 5. C++ and STL > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=835
+    - Chapter 5. C++ and STL > Exercises -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=836
+  Chapter 6. Data Structures:
+    - Chapter 6. Data Structures > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=838
+    - Chapter 6. Data Structures > Exercises -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=839
+  Chapter 7. Brute Force:
+    - Chapter 7. Brute Force > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=841
+    - Chapter 7. Brute Force > Exercises -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=842
+  Chapter 8. Algorithm Design:
+    - Chapter 8. Algorithm Design > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=844
+    - Chapter 8. Algorithm Design > Exercises -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=845
+  Chapter 9. Dynamic Programming:
+    - Chapter 9. Dynamic Programming > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=847
+    - Chapter 9. Dynamic Programming > Exercises -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=848
+  Chapter 10. Maths:
+    - Chapter 10. Maths > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=850
+    - Chapter 10. Maths > Exercises -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=851
+  Chapter 11. Graph Theory:
+    - Chapter 11. Graph Theory > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=853
+    - Chapter 11. Graph Theory > Exercises -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=854
+  Chapter 12. Advanced Topics:
+    - Chapter 12. Advanced Topics > Examples -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=856
+    - Chapter 12. Advanced Topics > Exercises -> https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=858
+

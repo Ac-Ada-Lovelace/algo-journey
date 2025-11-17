@@ -28,7 +28,6 @@ int main() {
     string seq;
     while (cases--) {
         cin >> seq;
-        // TODO: 这里处理每个序列的最小表示
         int min_index = 0;
         for (int i = 1; i < seq.size(); i++) {
             int res = min_start(seq.data(), min_index, i, seq.size());

@@ -1,0 +1,881 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<!-- EfA Scripts -->
+<script type="text/javascript" src="https://onlinejudge.org/templates/hm_yaml_2_5/js/efa/cookies.js"></script>
+<!-- // -->
+<title>Online Judge</title>
+<meta name="description" content="Online Judge" />
+<meta name="keywords" content="programming, contest, online, judge, problemset" />
+<meta name="Generator" content="Joomla! - Copyright (C) 2005 - 2007 Open Source Matters. All rights reserved." />
+<meta name="robots" content="index, follow" />
+<link rel="stylesheet" href="components/com_onlinejudge/css/onlinejudge.css" type="text/css" />
+<link rel="stylesheet" href="components/com_onlinejudge/css/tabber.css" type="text/css" />
+<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/layout_3col_vlines.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 7]>
+	<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/explorer/iehacks_3col_vlines.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style type="text/css">
+#page_margins {min-width: 756px; max-width: 90em; }
+</style>
+
+			<!--[if lt IE 7]>
+				<script defer type="text/javascript" src="https://onlinejudge.org/templates/hm_yaml_2_5/js/pngfix.js"></script>
+			<![endif]-->
+		
+
+		<style type="text/css">
+		#page_margins {
+			margin:auto;
+		}
+		</style>
+		
+<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/navigation/nav_vlist.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="https://onlinejudge.org/images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="audience" content="All"/>
+<meta name="revisit-after" content="1 Day"/>
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-floating"};
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+
+
+
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:10000;"></div>
+<!-- <script type="text/javascript">if (efa_fontSize) efa_fontSize.efaInit();</script> -->
+<a id="start" name="start"></a>
+
+<div id="page_margins">
+<div id="page" class="hold_floats">
+
+<!-- #header: Start -->
+<div id="header">
+	<div id="topnav">
+		<a class="skip" href="#navigation" title="Direkt zur Navigation springen">Zur Navigation springen</a>
+		<a class="skip" href="#content" title="Direkt zum Content springen">Zum Content springen</a>	
+			</div>
+	<img src="https://onlinejudge.org/templates/hm_yaml_2_5/./img/ojlogo2.svg.png" alt="Online Judge"/>
+	<div id="headbanner" style="width:728px;height:90px;position:absolute;right:25px;top:25px;">
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-2439032012840386";
+	google_ad_slot = "8272437788";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	</script>
+	<script type="text/javascript"
+	src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+	--> 
+	</div>
+</div>
+<!-- #header: End -->
+
+<!-- #nav: Start -->
+<div id="nav">
+	<a id="navigation" name="navigation"></a>
+	<div id="nav_main" >
+			</div>
+</div>
+<!-- #nav: End -->
+
+<!-- #toolbar_box: Start -->
+<div class="clearfix" id="toolbar_box">
+	<div class="tool_pathway">
+		<span class="pathway"><a href="https://onlinejudge.org/index.php" class="pathway">Home</a> <img src="https://onlinejudge.org/templates/hm_yaml_2_5/images/arrow.png" border="0" alt="arrow" />   Browse Problems </span>	</div>
+<!--	<div class="tool_searchbox">
+		<form action="index.php" method="get">
+			<input class="inputbox" type="text" name="searchword" size="25" value="search..."  onblur="if(this.value=='') this.value='search...';" onfocus="if(this.value=='search...') this.value='';" />
+			<input type="hidden" name="option" value="com_search" />
+		</form>
+	</div>-->
+	<div class="tool_fontsize">
+		<script type="text/javascript">	
+	<!--		if (efa_fontSize) document.write(efa_fontSize.allLinks);	-->
+		</script>
+	</div>
+	</div>
+<!-- #toolbar_box: End -->
+
+<!-- #main: Content Start -->
+<div id="main">
+
+
+<!-- #col1: Left Column of Content -->
+    <div id="col1">
+		<div id="col1_content" class="clearfix">
+			<!-- <div style="width:100%;text-align:center;">
+			<iframe src="http://www.indiegogo.com/project/361690/widget/2710044" width="224px" height="486px" frameborder="0" scrolling="no"></iframe></div> -->
+                        		<div class="moduletable">
+							<h3>
+					Login				</h3>
+				<form action="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=login" method="post" id="mod_loginform" style="margin:0px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mod_login">
+<tr><td><span id="mod_login_usernametext"><label for="mod_login_username">Username</label></span><br />
+<input type="text" name="username" id="mod_login_username" class="inputbox" size="10" /><br />
+<span id="mod_login_passwordtext"><label for="mod_login_password">Password</label></span><br /><span><input type="password" name="passwd" id="mod_login_password" class="inputbox" size="10" /></span><br />
+<input type="hidden" name="op2" value="login" />
+<input type="hidden" name="lang" value="english" />
+<input type="hidden" name="force_session" value="1" />
+<input type="hidden" name="return" value="B:aHR0cDovL29ubGluZWp1ZGdlLm9yZy9pbmRleC5waHA/b3B0aW9uPWNvbV9vbmxpbmVqdWRnZSZhbXA7SXRlbWlkPTgmYW1wO2NhdGVnb3J5PTk5" />
+<input type="hidden" name="message" value="0" />
+<input type="hidden" name="loginfrom" value="loginmodule" />
+<input type="hidden" name="cbsecuritym3" value="cbm_66a5291d_4c25de05_ecbe5349d40ad407a74fe135f6ad18ad" />
+<input type="hidden" name="jf6a312a670c980b5db6df853c0c6dc72" value="1" />
+<input type="checkbox" name="remember" id="mod_login_remember" value="yes" /> <span id="mod_login_remembermetext"><label for="mod_login_remember">Remember me</label></span><br />
+<input type="submit" name="Submit" class="button" value="Login" /></td></tr>
+<tr><td><a href="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=lostPassword" class="mod_login">Forgot login?</a></td></tr>
+<tr><td>No account yet? <a href="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=registers" class="mod_login">Register</a></td></tr>
+</table></form>		</div>
+							<div class="moduletable">
+			<!-- SiteSearch Google -->
+
+<form action="https://www.google.com/cse" id="cse-search-box" target="_blank">
+<div>
+<input type="hidden" name="cx" value="partner-pub-2439032012840386:3416984485" />
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="text" name="q" size="19" />
+<input type="submit" name="sa" value="Search" />
+</div>
+</form>
+<script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+<!-- SiteSearch Google -->
+		</div>
+				<div class="moduletable">
+							<h3>
+					Main Menu				</h3>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_frontpage&amp;Itemid=1" class="mainlevel" >Home</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_contact&amp;Itemid=4" class="mainlevel" >Contact Us</a></td></tr>
+<tr align="left"><td><a href="http://livearchive.onlinejudge.org" target="_blank" class="mainlevel" >ICPC Live Archive</a></td></tr>
+</table>		</div>
+				<div class="moduletable">
+							<h3>
+					Online Judge				</h3>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="http://uhunt.felix-halim.net/id/0" target="_blank" class="mainlevel" >My uHunt with Virtual Contest Service</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8" class="mainlevel" id="active_menu">Browse Problems</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/local/online_judge/search_uva.html" target="_blank" class="mainlevel" >Quick access, info and search</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=44" class="mainlevel" >Problemsetters' Credits</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/local/online_judge/public_uva.html" target="_blank" class="mainlevel" >Live Rankings</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=5&amp;Itemid=18" class="mainlevel" >Site Statistics</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=2&amp;Itemid=10" class="mainlevel" >Contests</a></td></tr>
+<tr align="left"><td><a href="https://uva.onlinejudge.org/board/" class="mainlevel" >Electronic Board</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=14&amp;Itemid=29" class="mainlevel" >Additional Information</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=17&amp;Itemid=32" class="mainlevel" >Other Links</a></td></tr>
+</table>		</div>
+														<div style="text-align:center;">
+			<a href="http://uhunt.felix-halim.net/" target="_new">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAABGdBTUEAALGPC/xhBQAAAQtQTFRFRkZGRkZpRkaJRmmoRonGUVFRXFxcXV1daGhoaUZGaajic3NzdHR0fn5+iUZGicb/ioqKlZWVoqKiqGlGqMb/qOL/q6urra2tt7e3uLi4wsLCwxdWwxd1wxeSw0avw2/KxMTExiVgxolGxsb/xuL/xv//yjNqyjRrzhdWzkF1zpbl0lB/0lGA1V2J1xdW1xeS17r/2WyU2W2V3Hqe3Xuf3Xyf4Iip4UZW4Yqq4d3/4qhp4qiJ4v//5Jay5Zq15ubm5+fn6KS96Ke/7G9W7LTI7LbK7LrK7P//8vLy9ZZ19d3/9f//9+Hp+OHq+/D0/7qS/8aJ/92v/+Ko/+LG///G///K///i///l////+YMcUAAAA99JREFUaN7tm2tf0zAUh4NuDAbIinKNOjaVyZjagXjBywYD7ZQVRNR+/09imvSSW7u1NukLc15sy6V9Tv45SZP9GuAJNjk77u3Bwmyvd3w2ESmAp74rkEnRP09SwZNDqMwOJ4lgVyEWo105+KIFFVvrQgbuQw12LIDdA6jFDlwW7O5DTbbvMuADqM1e0OA+1GivY/A51GrnIdht6QW33ADch5qtT8CXULtdYnBfP7jvg0tosN9k4L0pA/wJgTtlgDseKEVppDU4LQd8Co7KAR+BXjngHuiUA+4AWJIZsAH/N+BHX/110a+XfM4VhA/f48XamKnfxXk/nqsEyyBSZwoHP/7u//rzlqouyVIAljQvu9J5wBKMjXNGUDFYEFasrQYsaN30ojKlYEHrHErnA3Na85UDRdKjLReY05pVmlScis4F5rRmlCZqRJYYcfnAjNakJPAikjm0caHg4PYjSumxILudKnY+MNOtNh1pdgwj3iVpnRNMlTNKE59GUPSoIDAVUM3ErlQCjrVOun0Q3hnBYv9w4MgzXmk+tIsGR1o3+emSG8i5wPRFPDjU2k6YLnOCxZ4jDRnzUfBKKgQRwc4NphUUgpfU+MLWC3Qe5Y5qcZWR4Ak3IXfpWrnAwW254SNGmydROqglxsks4DBIyHVh6krsDVYHW5jDs4JpJT0Jga5B6dCNYKznWbYwtsgdS2Y3NpsbxCkropS9k0C+kldg2tSlh/C3lAdy2qaNdV/UrClb3nQpP7spD+Qpu0U7qbWU1mPpNfFmZ2T2xwZswAZswAZswAbMgY0ZM2bM2D/Y3Y+394Kfd579vj+1dht91r1rzeC5da9UsH6plYLDjDB1s1hH+23sUh1vwttEaqbEt1WUuEaf7YLAP5+SfwlOBDBV4ifx79snhYHxjZHGfi4dXEKJ/1XHjs0Ipv5ykYKDBvkpDkyVVDxyVaU4MOlDkmLBdMkq8QKl5OBadqnpFAumSuJwlwZXDSwrA4fBLQUvA6ucFltgSxE46mP5FLMFBrOAiWp1Lws4PaoHwKtNBccjMgs4uKoiHcc1D3gb0+fqChlaH9ZFMJ4WT2TgcFjePJCANxB4MMNDAo1F5PecDIwahqAycNpcPfBfgW2oXVfIgquB370dqAGGawNKQKrB+DVnNU2ukIcU6ulrSYMx2KkqkpjYzSJXUnXCV9l3gKo2S8fSTvzyvqVzFWvRxxWW9HFXmHMSzoIu7oLDHklxNLV5xREO4Vj6+pc7drRbVY2t7soPWjmKJ8+Gk3i0bKgQ3RimHqYbbs6roM5vDqec4kPo7TVrqUD6/JK1tj0UMH8Bt4PfPqA/FOsAAAAASUVORK5CYII=" alt="uHunt" width="80" /><br/><br/></a>
+			<a href="https://www.udebug.com/UVa" target="_new"><img src="https://www.udebug.com/sites/default/files/udebug_logo_small.png" width="150" alt="uDebug" /></a>
+			</div>
+			<!--<div style="border-width:1px;border-style:solid;border-color:#000088;width=100%;text-align:center;margin-top:30px;">
+			<div style="background-color:#000088;color:white;text-align:left;">With the collaboration of</div>
+			<a href="http://www.relint.uva.es" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_uva.jpg" alt="UVa" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://icpc.baylor.edu" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_icpc.jpg" alt="ICPC" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://www.funge.uva.es" target="_new"><img src="https://uva.onlinejudge.org/images/funge_new.png" alt="Funge" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://www.parquecientificouva.es" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_parque.jpg" alt="Parque Cient&iacute;fico UVa" style="padding-top:10px;padding-bottom:10px;"/></a>
+			</div>-->
+		</div>
+    </div>
+<!-- #col1: End -->
+
+<!-- #col2: Right Column of Content -->
+    <div id="col2">
+		<div id="col2_content" class="clearfix">
+						<div class="moduletable">
+							<h3>
+					Our Patreons				</h3>
+				<h2><strong style="color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif; font-size: 13.3328px">Diamond Sponsors</strong></h2><p>Steven &amp; Felix Halim</p><p>Reinardus Pradhitya<span style="font-size: 13.3328px">&nbsp;</span></p><h2><strong style="color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif; font-size: 13.3328px">Gold Sponsors</strong></h2><p style="font-size: 13.3328px">--- YOUR NAME HERE ----<span style="font-size: 13.3328px">&nbsp;</span></p><h2 style="font-size: 13.3328px"><strong style="font-size: 13.3328px; color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif">Silver Sponsors</strong></h2><p style="font-size: 13.3328px"><span style="font-size: 13.3328px">--- YOUR NAME HERE ----</span>&nbsp;<span style="font-size: 13.3328px">&nbsp;</span></p><h2 style="font-size: 13.3328px"><strong style="font-size: 13.3328px; color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif">Bronze Sponsors</strong></h2><p style="font-size: 13.3328px">Christianto Handojo</p><p style="font-size: 13.3328px">Krzysztof Adamek</p><p style="font-size: 13.3328px">Fatima Broom</p><p style="font-size: 13.3328px"><a href="https://techbuy.in/upgrad-referral-code" target="_blank">Amal Augustine<img style="font-size: 13.3328px" src="/images/techbuy_logo.png" alt="TechBuy" width="100" height="27" align="absmiddle" /></a> </p>		</div>
+				<div class="moduletable">
+							<h3>
+					Contribute				</h3>
+				<p style="text-align: center"><a href="https://www.patreon.com/onlinejudge" target="_blank"><img src="images/patronbutton.png" alt="Become a patron" title="Become a patron" width="230" height="76" align="baseline" /></a></p><p style="text-align: center"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=D7XA3E822BTP8&amp;source=url" target="_blank"><img style="font-size: 13.3328px" src="https://www.paypalobjects.com/en_US/ES/i/btn/btn_donateCC_LG.gif" alt="PayPal" title="PayPal" width="152" height="47" /></a> &nbsp;</p><p style="text-align: center"><img src="images/bitcoinqr.png" alt="1ojudgeapLUjJcnUmze67a4w3TJ6WnPxo" title="1ojudgeapLUjJcnUmze67a4w3TJ6WnPxo" width="200" height="200" /></p><p style="text-align: center"><span style="font-size: 13.3328px">Bitcoin:&nbsp;</span></p><p style="text-align: center"><span style="font-size: 13.3328px; text-align: left">1ojudgeapLUjJcnU</span><span style="font-size: 13.3328px; text-align: left">m</span></p><p style="text-align: center"><span style="font-size: 13.3328px; text-align: left">ze</span><span style="font-size: 13.3328px; text-align: left">67a4w3TJ6WnPxo</span><span style="font-size: 13.3328px">&nbsp;</span></p>		</div>
+													</div>
+    </div>
+<!-- #col2: End -->
+
+<!-- #col3: Main Content -->
+    <div id="col3">
+      <div id="col3_content" class="clearfix">
+	  	<div id="col3_content_wrapper" class="floatbox">
+		  <a id="content" name="content"></a>
+							<div class="componentheading">Browse Problems</div>
+
+	<div class="contentheading" style="font-size : 110%;">
+<a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=0">Root</a> :: <a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=93">AOAPC I: Beginning Algorithm Contests (Rujia Liu)</a> :: <a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=95">Volume 1. Elementary Problem Solving</a> :: <a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99">Maths - Misc</a>	
+	</div>
+
+	<table cellpadding="4" cellspacing="0" border="0" width="100%">
+		<tr class="sectiontableheader">
+			<td width="1%" class="title"></td>
+			<td width="1%" class="title"></td>
+			<td width="20%" class="title">Title</td>
+			<td width="15%" class="title" colspan="2">Total Submissions / Solving %</td>
+			<td width="15%" class="title" colspan="2">Total Users / Solving %</td>
+		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=49">113&nbsp;-&nbsp;Power of Cryptography</a></td>
+						<td align="right">79583</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:41.00%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">41.00%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">25262</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:89.09%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">89.09%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=1102">10161&nbsp;-&nbsp;Ant on a Chessboard</a></td>
+						<td align="right">20297</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:58.62%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">58.62%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">8937</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:94.52%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">94.52%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=189">253&nbsp;-&nbsp;Cube painting</a></td>
+						<td align="right">23198</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:41.39%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">41.39%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">5347</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:85.97%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">85.97%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=562">621&nbsp;-&nbsp;Secret Research</a></td>
+						<td align="right">35678</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:47.09%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">47.09%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">14301</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:90.13%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">90.13%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=966">10025&nbsp;-&nbsp;The ? 1 ? 2 ? ... ? n = k problem</a></td>
+						<td align="right">17782</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:28.62%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">28.62%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">4480</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:77.77%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">77.77%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=532">591&nbsp;-&nbsp;Box of Bricks</a></td>
+						<td align="right">108266</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:32.75%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">32.75%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">27237</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:85.34%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">85.34%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=43">107&nbsp;-&nbsp;The Cat in the Hat</a></td>
+						<td align="right">53650</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:21.72%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">21.72%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">9276</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:68.25%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">68.25%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=514">573&nbsp;-&nbsp;The Snail</a></td>
+						<td align="right">48646</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:43.09%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">43.09%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">17715</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:90.96%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">90.96%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=787">846&nbsp;-&nbsp;Steps</a></td>
+						<td align="right">20640</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:48.69%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">48.69%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">7863</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:89.83%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">89.83%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=1440">10499&nbsp;-&nbsp;The Land of Justice</a></td>
+						<td align="right">22475</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:41.80%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">41.80%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">7507</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:92.38%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">92.38%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=1731">10790&nbsp;-&nbsp;How Many Points of Intersection?</a></td>
+						<td align="right">8717</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:51.35%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">51.35%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">3397</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:94.79%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">94.79%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=1985">11044&nbsp;-&nbsp;Searching for Nessy</a></td>
+						<td align="right">40140</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:68.01%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">68.01%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">21854</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:96.52%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">96.52%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=1660">10719&nbsp;-&nbsp;Quotient Polynomial</a></td>
+						<td align="right">5675</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:40.90%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">40.90%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1778</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:85.83%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">85.83%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=1118">10177&nbsp;-&nbsp;(2/3/4)-D Sqr/Rects/Cubes/Boxes?</a></td>
+						<td align="right">5381</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:54.62%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">54.62%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2315</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:93.48%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">93.48%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=1857">10916&nbsp;-&nbsp;Factstone Benchmark</a></td>
+						<td align="right">5095</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:62.79%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">62.79%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2371</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:94.69%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">94.69%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=1911">10970&nbsp;-&nbsp;Big Chocolate</a></td>
+						<td align="right">35529</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:67.98%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">67.98%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">16224</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:97.39%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">97.39%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;page=show_problem&amp;problem=955">10014&nbsp;-&nbsp;Simple calculations</a></td>
+						<td align="right">12788</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:31.79%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">31.79%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">4122</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:70.91%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">70.91%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+			</table>
+	<table cellpadding="4" cellspacing="0" border="0" width="100%">
+		<tr class="sectiontableheader">
+			<td colspan="3" align="center">
+			<span class="pagenav">&lt;&lt;&nbsp;Start</span> <span class="pagenav">&lt;&nbsp;Prev</span> <span class="pagenav">1</span> <span class="pagenav">Next&nbsp;&gt;</span> <span class="pagenav">End&nbsp;&gt;&gt;</span>			</td>
+		</tr>
+		<tr class="sectiontableentry">
+			<td align="right" width="48%">Display #</td>
+			<td align="center" width="4%">
+			
+<select name="limit" class="inputbox" size="1" onchange="document.location.href='https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99&amp;limit=' + this.options[selectedIndex].value + '&amp;limitstart=0';">
+	<option value="5">5</option>
+	<option value="10">10</option>
+	<option value="15">15</option>
+	<option value="20">20</option>
+	<option value="25">25</option>
+	<option value="30">30</option>
+	<option value="50">50</option>
+</select>
+			</td>
+			<td align="left" width="48%">
+			Results 1 - 17 of 17			</td>
+		</tr>
+	</table>
+					</div>
+      </div>
+	  
+      <!-- IE Column Clearing -->
+         <div id="ie_clearing">&nbsp;</div>
+      <!-- Ende: IE Column Clearing -->	  
+	</div>
+<!-- #main: Content End -->
+
+</div>
+
+<!-- #footer: Start -->
+<div id="footer" style="text-align:center;">
+<!--	<a href="http://www.hieblmedia.de"><img src="https://onlinejudge.org/templates/hm_yaml_2_5/img/hieblmedia_logo.jpg" border="0" alt="HieblMedia WebSolutions"/></a><br />
+-->
+<!--		<a href="http://yaml.to-joomla.de" target="_blank">YAML to Joomla Template</a> &copy; 2006 - 2025 by Reinhard Hiebl [ <a href="http://www.hieblmedia.de">HieblMedia</a> ]<br />
+	-->
+	
+<!--    <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img
+            src="http://www.w3.org/Icons/valid-xhtml10"
+	            alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+
+<a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=207390&amp;t=209" target="_new"><img border="0" alt="Firefox 2" title="Firefox 2" src="http://sfx-images.mozilla.org/affiliates/Buttons/firefox2/firefox-spread-btn-1.png"/></a> -->
+
+<script type="text/javascript">
+google_ad_client = "ca-pub-2439032012840386";
+google_ad_slot = "7763957826";
+google_ad_width = 728;
+google_ad_height = 90;
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+
+
+<!--	<a href="http://validator.w3.org/check?uri=http://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99" target="_blank">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=99" target="_blank">CSS</a> | -->
+
+	
+<!--	 <hr />	<div align="center">
+	&copy; 2025 Online Judge</div>
+
+<div align="center">
+	<a href="http://www.joomla.org">Joomla!</a> is Free Software released under the GNU/GPL License.</div> -->
+<!--	<br /><div id="loading_template_time">Load Total: 0,010 sec. </div>-->
+</div>
+<!-- #footer: End -->
+
+</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9887308-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+<!-- 1763298810 -->

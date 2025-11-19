@@ -6,8 +6,8 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-
-    int l = 0;
+o
+nt l = 0;
     cin >> l;
     while (l--) {
         int I, D;

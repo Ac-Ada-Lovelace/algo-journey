@@ -5,6 +5,4 @@ CompileFlags:
     - -Wextra
     - -Wpedantic
     - -Wshadow
-    - -Wconversion
-    - -Wsign-conversion
     - -Wuninitialized

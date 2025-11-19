@@ -1,0 +1,451 @@
+AOAPC II: Beginning Algorithm Contests (Second Edition) (Rujia Liu)
+  Chapter 3. Arrays and Strings
+    Examples
+      272 - TEX Quotes
+      10082 - WERTYU
+      401 - Palindromes
+      340 - Master-Mind Hints
+      1583 - Digit Generator
+      1584 - Circular Sequence
+    Exercises
+      1585 - Score
+      1586 - Molar mass
+      1225 - Digit Counting
+      455 - Periodic Strings
+      227 - Puzzle
+      232 - Crossword Answers
+      1368 - DNA Consensus String
+      202 - Repeating Decimals
+      10340 - All in All
+      1587 - Box
+      1588 - Kickdown
+      11809 - Floating-Point Numbers
+  Chapter 4. Functions and Recursion
+    Examples
+      1339 - Ancient Cipher
+      489 - Hangman Judge
+      133 - The Dole Queue
+      213 - Message Decoding
+      512 - Spreadsheet Tracking
+      12412 - A Typical Homework (a.k.a Shi Xiong Bang Bang Mang)
+    Exercises
+      1589 - Xiangqi
+      201 - Squares
+      220 - Othello
+      253 - Cube painting
+      1590 - IP Networks
+      508 - Morse Mismatches
+      509 - RAID!
+      12108 - Extraordinarily Tired Students
+      1591 - Data Mining
+      815 - Flooded!
+  Chapter 5. C++ and STL
+    Examples
+      10474 - Where is the Marble?
+      101 - The Blocks Problem
+      10815 - Andy's First Dictionary
+      156 - Ananagrams
+      12096 - The SetStack Computer
+      540 - Team Queue
+      136 - Ugly Numbers
+      400 - Unix ls
+      1592 - Database
+      207 - PGA Tour Prize Money
+      814 - The Letter Carrier's Rounds
+      221 - Urban Elevations
+    Exercises
+      1593 - Alignment of Code
+      1594 - Ducci Sequence
+      10935 - Throwing cards away I
+      10763 - Foreign Exchange
+      10391 - Compound Words
+      1595 - Symmetry
+      12100 - Printer Queue
+      230 - Borrowers
+      1596 - Bug Hunt
+      1597 - Searching the Web
+      12504 - Updating a Dictionary
+      511 - Do You Know the Way to San Jose?
+      822 - Queue and A
+      1598 - Exchange
+      12333 - Revenge of Fibonacci
+      212 - Use of Hospital Facilities
+  Chapter 6. Data Structures
+    Examples
+      210 - Concurrency Simulator
+      514 - Rails
+      442 - Matrix Chain Multiplication
+      11988 - Broken Keyboard (a.k.a. Beiju Text)
+      12657 - Boxes in a Line
+      679 - Dropping Balls
+      122 - Trees on the level
+      548 - Tree
+      839 - Not so Mobile
+      699 - The Falling Leaves
+      297 - Quadtrees
+      572 - Oil Deposits
+      1103 - Ancient Messages
+      816 - Abbott's Revenge
+      10305 - Ordering Tasks
+      10129 - Play on Words
+      10562 - Undraw the Trees
+      12171 - Sculpture
+      1572 - Self-Assembly
+      1599 - Ideal Path
+      506 - System Dependencies
+      11853 - Paintball
+    Exercises
+      673 - Parentheses Balance
+      712 - S-Trees
+      536 - Tree Recovery
+      439 - Knight Moves
+      1600 - Patrol Robot
+      12166 - Equilibrium Mobile
+      804 - Petri Net Simulation
+      806 - Spatial Structures
+      127 - "Accordian" Patience
+      246 - 10-20-30
+      10410 - Tree Reconstruction
+      810 - A Dicey Problem
+      215 - Spreadsheet Calculator
+      12118 - Inspector's Dilemma
+  Chapter 7. Brute Force
+    Examples
+      725 - Division
+      11059 - Maximum Product
+      10976 - Fractions Again?!
+      524 - Prime Ring Problem
+      129 - Krypton Factor
+      140 - Bandwidth
+      1354 - Mobile Computing
+      10603 - Fill
+      1601 - The Morning after Halloween
+      11212 - Editing a Book
+      12325 - Zombie's Treasure Chest
+      1343 - The Rotation Game
+      1374 - Power Calculus
+      1602 - Lattice Animals
+      1603 - Square Destroyer
+    Exercises
+      208 - Firetruck
+      225 - Golygons
+      211 - The Domino Effect
+      818 - Cutting Chains
+      690 - Pipeline Scheduling
+      12113 - Overlapping Squares
+      12558 - Egyptian Fractions (HARD version)
+      12107 - Digit Puzzle
+      1604 - Cubic Eight-Puzzle
+      11214 - Guarding the Chessboard
+      12569 - Planning mobile robot on Tree (EASY Version)
+      1533 - Moving Pegs
+      817 - According to Bartjens
+      307 - Sticks
+      11882 - Biggest Number
+      11846 - Finding Seats Again
+      11694 - Gokigen Naname
+      10384 - The Wall Pushers
+  Chapter 8. Algorithm Design
+    Examples
+      120 - Stacks of Flapjacks
+      1605 - Building for UN
+      1152 - 4 Values whose Sum is 0
+      11134 - Fabled Rooks
+      11054 - Wine trading in Gergovia
+      1606 - Amphiphilic Carbon Molecules
+      11572 - Unique Snowflakes
+      1471 - Defense Lines
+      1451 - Average
+      714 - Copying Books
+      10954 - Add All
+      12627 - Erratic Expansion
+      11093 - Just Finish it up
+      1607 - Gates
+      12174 - Shuffle
+      1608 - Non-boring sequences
+      1609 - Foul Play
+      1442 - Cav
+      12265 - Selling Land
+    Exercises
+      1149 - Bin Packing
+      1610 - Party Games
+      12545 - Bits Equalizer
+      11491 - Erasing and Winning
+      177 - Paper Folding
+      1611 - Crane
+      11925 - Generating Permutations
+      1612 - Guess
+      1613 - K-Graph Oddity
+      1614 - Hell on the Markets
+      1615 - Highway
+      1153 - Keep the Customer Satisfied
+      10570 - Meeting with Aliens
+      1616 - Caravan Robbers
+      1617 - Laptop
+      1618 - Weak Key
+      11536 - Smallest Sub-Array
+      1619 - Feel Good
+      1312 - Cricket Field
+      1620 - Lazy Susan
+      1621 - Jumping Around
+      1622 - Robot
+      1623 - Enter The Dragon
+      10366 - Faucet Flow
+      11175 - From D to E and Back
+      12559 - Finding Black Circles
+      1580 - Pirate Chest
+      1624 - Knots
+  Chapter 9. Dynamic Programming
+    Examples
+      1025 - A Spy in the Metro
+      437 - The Tower of Babylon
+      1347 - Tour
+      116 - Unidirectional TSP
+      12563 - Jin Ge Jin Qu hao
+      11400 - Lighting System Design
+      11584 - Partitioning by Palindromes
+      1625 - Color Length
+      10003 - Cutting Sticks
+      1626 - Brackets sequence
+      1331 - Minimax Triangulation
+      12186 - Another Crisis
+      1220 - Party at Hali-Bula
+      1218 - Perfect Service
+      10817 - Headmaster's Headache
+      1252 - Twenty Questions
+      1412 - Fund Management
+      10618 - Tango Tango Insurrection
+      1627 - Team them up!
+      10934 - Dropping water balloons
+      1336 - Fixing the Great Wall
+      12105 - Bigger is Better
+      1204 - Fun Game
+      12099 - The Bookcase
+      12170 - Easy Climb
+      1380 - A Scheduling Problem
+      10559 - Blocks
+      1439 - Exclusive Access 2
+      1228 - Integer Transmission
+      1375 - The Best Name for Your Baby
+      1628 - Pizza Delivery
+    Exercises
+      10285 - Longest Run on a Snowboard
+      10118 - Free Candies
+      1629 - Cake slicing
+      1630 - Folding
+      242 - Stamps and Envelope Size
+      10723 - Cyborg Genes
+      1631 - Locker
+      1632 - Alibaba
+      10163 - Storage Keepers
+      10641 - Barisal Stadium
+      1633 - Dyslexic Gollum
+      12093 - Protecting Zonk
+      1289 - Stacking Plates
+      1543 - Telescope
+      12589 - Learning Vector
+      1634 - The Picnic
+      10271 - Chopsticks
+      1379 - Pitcher Rotation
+      1443 - Garlands
+      12222 - Mountain Road
+      1371 - Period
+      1579 - Matryoshka
+      1322 - Minimizing Maximizer
+  Chapter 10. Maths
+    Examples
+      11582 - Colossal Fibonacci Numbers!
+      12169 - Disgruntled Judge
+      10375 - Choose and divide
+      10791 - Minimum Sum LCM
+      12716 - GCD XOR
+      1635 - Irrelevant Elements
+      10820 - Send a Table
+      1262 - Password
+      1636 - Headshot
+      10491 - Cows and Cars
+      11181 - Probability|Given
+      1637 - Double Patience
+      580 - Critical Mass
+      12034 - Race
+      1638 - Pole Arrangement
+      12230 - Crossing Rivers
+      1639 - Candy
+      10288 - Coupons
+      11346 - Probability
+      10900 - So you want to be a 2n-aire?
+      11971 - Polygon
+      1640 - The Counting Problem
+      10213 - How Many Pieces of Land ?
+      1641 - ASCII Area
+      1363 - Joseph's Problem
+      11440 - Help Tomisu
+      10214 - Trees in a Wood.
+      1393 - Highways
+      1642 - Magical GCD
+    Exercises
+      11040 - Add bricks in the wall
+      808 - Bee Breeding
+      1643 - Angle and Squares
+      1644 - Prime Gap
+      1213 - Sum of Different Primes
+      1210 - Sum of Consecutive Prime Numbers
+      10539 - Almost Prime Numbers
+      10622 - Perfect P-th Powers
+      294 - Divisors
+      1645 - Count
+      1646 - Edge Case
+      557 - Burger
+      11526 - H(n)
+      10886 - Standard Deviation
+      12063 - Zeros and Ones
+      1647 - Computer Transformation
+      11105 - Semi-prime H-numbers
+      10837 - A Research Problem
+      10868 - Bungee Jumping
+      1648 - Business Center
+      1649 - Binomial coefficients
+      10640 - Planes around the World
+      10479 - The Hendrie Sequence
+      766 - Sum of powers
+      1575 - Factors
+      12520 - Square Garden
+      1390 - Interconnect
+      1650 - Number String
+      11982 - Fantasy Cricket
+      12371 - Guards
+      12590 - Guards II
+      1414 - Hanoi Towers
+      1651 - Binary Operation
+      12212 - Password Remembering
+      1282 - Fibonacci Words
+      1652 - Fibonacci System
+      1653 - Yet Another Multiple Problem
+      10824 - Regular Polygon
+      11186 - Circum Triangle
+      12535 - Probability Through Experiments
+      1406 - A Sequence of Numbers
+      12508 - Triangles in the Grid
+      1654 - Pairs of integers
+      11246 - K-Multiple Free set
+      11166 - Power Signs
+      11895 - Honorary Tickets
+      11429 - Randomness
+      1655 - Exam
+      1656 - Exponential Towers
+      11303 - Permutations
+      1657 - Game
+  Chapter 11. Graph Theory
+    Examples
+      12219 - Common Subexpression Elimination
+      1395 - Slim Span
+      1151 - Buy or Build
+      247 - Calling Circles
+      10048 - Audiophobia
+      658 - It's not a Bug, it's a Feature!
+      753 - A Plug for UNIX
+      11082 - Matrix Decompressing
+      1658 - Admiral
+      1349 - Optimal Bus Route Design
+      12661 - Funny Car Racing
+      1515 - Pool construction
+      10735 - Euler Circuit
+      1279 - Asteroid Rangers
+      1659 - Help Little Laura
+    Exercises
+      821 - Page Hopping
+      1001 - Say Cheese
+      820 - Internet Bandwidth
+      1660 - Cable TV Network
+      1661 - Equation
+      1662 - Brackets Removal
+      10801 - Lift Hopping
+      1663 - Purifying Machine
+      12549 - Sentry Robots
+      12264 - Risk
+      1664 - Conquer a New Region
+      1665 - Islands
+      1666 - Walk
+      1667 - Network Mess
+      1668 - Let's Go Green
+      1669 - Holiday's Accommodatio
+      1670 - Kingdom Roadmap
+      12214 - Traffic Jam
+      1518 - Train delays
+      12433 - Rent a Car
+      11671 - Sign of Matrix
+  Chapter 12. Advanced Topics
+    Examples
+      1671 - History of Languages
+      1672 - Disjoint Regular Expressions
+      1673 - str2int
+      12161 - Ironman Race in Treeland
+      11994 - Happy Painting!
+      1674 - Lightning Energy Report
+      12538 - Version Controlled IDE
+      805 - Polygon Intersections
+      1675 - Kingdom Reunion
+      12314 - The Cleaning Robot
+      1520 - Flights
+      1676 - GRE Words Revenge
+      11998 - Rujia Liu loves Wario Land!
+      1104 - Chips Challenge
+      12567 - Never7, Ever17 and Water
+      12110 - Gargoyle
+      12253 - Simple Encryption
+      12164 - The Great Game
+      1677 - Cycling
+      1678 - Huzita Axiom 6
+      1679 - Easy Geometry
+      12162 - Shooting the Monster
+      1017 - Merrily, We Roll Along!
+      1286 - Room Service
+      1288 - Shortest Flight Path
+      12565 - Lovely Magical Curves
+      11188 - A Strange Opera House
+      12308 - Smallest Enclosing Box
+      1680 - Journey
+      1097 - Rain
+      1681 - Dictionary
+      11199 - Equations in Disguise
+      1682 - Exclusive Access
+      11521 - Compressor
+      12417 - Formula Editor
+      12666 - Killer Puzzle
+      12731 - Mysterious Space Station
+    Extra
+      1683 - In case of failure
+      12629 - Rectangle XOR Game
+      12698 - Safari Park
+      12711 - Game of Throne
+      12713 - Pearl Chains
+      12513 - Safe Places
+      11594 - All Pairs Maximum Flow
+      12415 - Digit Patterns
+      11993 - Girls' Celebration
+      10766 - Organising the Organisation
+      11118 - Prisoners, Boxes and Pieces of Paper
+      11915 - Recurrence
+      1684 - Escape Plan
+      1685 - Enjoyable Commutation
+    Exercises
+      12306 - My SketchUp
+      1686 - Tiling
+      1687 - Slicing Tree
+      12227 - Wormholes
+      1688 - Roof
+      1689 - International Event
+      11425 - Collecting Luggage EXTREME!!!
+      1570 - Accelerator
+      1690 - Find a Minor
+      1573 - Hey, Better Bettor
+      1691 - Hip To Be Square
+      1692 - Labyrinth of the Minotaur
+      1693 - XAR
+      1290 - Takeover Wars
+      1694 - History course
+      12570 - Qualle? Quale?
+      10383 - Queen vs Rook
+      12566 - Melody "Creation"
+      1695 - Escape
+      1696 - Traveling Spiders

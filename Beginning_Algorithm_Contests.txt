@@ -1,0 +1,359 @@
+AOAPC I: Beginning Algorithm Contests (Rujia Liu)
+  Volume 0. Getting Started
+    10055 - Hashmat the Brave Warrior
+    10071 - Back to High School Physics
+    10300 - Ecological Premium
+    458 - The Decoder
+    494 - Kindergarten Counting Game
+    414 - Machined Surfaces
+    490 - Rotating Sentences
+    445 - Marvelous Mazes
+    488 - Triangle Wave
+    489 - Hangman Judge
+    694 - The Collatz Sequence
+    457 - Linear Cellular Automata
+  Volume 1. Elementary Problem Solving
+    String
+      401 - Palindromes
+      10010 - Where's Waldorf?
+      10361 - Automatic Poetry
+      537 - Artificial Intelligence?
+      409 - Excuses, Excuses!
+      10878 - Decode the tape
+      10815 - Andy's First Dictionary
+      644 - Immediate Decodability
+      10115 - Automatic Editing
+    Big Number
+      424 - Integer Inquiry
+      10106 - Product
+      465 - Overflow
+      748 - Exponentiation
+      10494 - If We Were a Child Again
+    Sorting/Searching
+      340 - Master-Mind Hints
+      10420 - List of Conquests
+      10474 - Where is the Marble?
+      152 - Tree's a Crowd
+      299 - Train Swapping
+      120 - Stacks of Flapjacks
+      156 - Ananagrams
+      400 - Unix ls
+      123 - Searching Quickly
+      10194 - Football (aka Soccer)
+      755 - 487--3279
+      10785 - The Mad Numerologist
+    Maths - Misc
+      113 - Power of Cryptography
+      10161 - Ant on a Chessboard
+      253 - Cube painting
+      621 - Secret Research
+      10025 - The ? 1 ? 2 ? ... ? n = k problem
+      591 - Box of Bricks
+      107 - The Cat in the Hat
+      573 - The Snail
+      846 - Steps
+      10499 - The Land of Justice
+      10790 - How Many Points of Intersection?
+      11044 - Searching for Nessy
+      10719 - Quotient Polynomial
+      10177 - (2/3/4)-D Sqr/Rects/Cubes/Boxes?
+      10916 - Factstone Benchmark
+      10970 - Big Chocolate
+      10014 - Simple calculations
+    Maths - Number Theory
+      575 - Skew Binary
+      10110 - Light, more light
+      550 - Multiplying by Rotation
+      568 - Just the Facts
+      408 - Uniform Generator
+      350 - Pseudo-Random Numbers
+      10061 - How many zero's and how many digits ?
+      10392 - Factoring Large Numbers
+      10879 - Code Refactoring
+    Maths - Simple Geometry
+      10250 - The Other Two Trees
+      579 - Clock Hands
+      375 - Inscribed Circles and Isosceles Triangles
+      10387 - Billiard
+      10112 - Myacm Triangles
+  Volume 2. Data Structures
+    Lists
+      127 - "Accordian" Patience
+      101 - The Blocks Problem
+      133 - The Dole Queue
+      10152 - ShellSort
+      673 - Parentheses Balance
+      442 - Matrix Chain Multiplication
+      11111 - Generalized Matrioshkas
+      11234 - Expressions
+      540 - Team Queue
+      10050 - Hartals
+    Binary Trees
+      112 - Tree Summing
+      548 - Tree
+      297 - Quadtrees
+      712 - S-Trees
+      699 - The Falling Leaves
+      327 - Evaluating Simple C Expressions
+      839 - Not so Mobile
+      10562 - Undraw the Trees
+    Graphs
+      572 - Oil Deposits
+      657 - The die is cast
+      784 - Maze Exploration
+      705 - Slash Maze
+      439 - Knight Moves
+      532 - Dungeon Master
+      10557 - XYZZY
+      10047 - The Monocycle
+      10004 - Bicoloring
+      10129 - Play on Words
+      10054 - The Necklace
+      10596 - Morning Walk
+      10305 - Ordering Tasks
+      196 - Spreadsheet
+  Volume 3. Brute Force
+    Elementary Skills
+      10167 - Birthday Cake
+      11205 - The broken pedometer
+      131 - The Psychic Poker Player
+      146 - ID Codes
+      10098 - Generating Fast
+      729 - The Hamming Distance Problem
+      592 - Island of Logic
+      110 - Meta-Loopless Sorts
+    Backtracking - Easy
+      10474 - Where is the Marble?
+      216 - Getting in Line
+      639 - Don't Get Rooked
+      539 - The Settlers of Catan
+      301 - Transportation
+      10344 - 23 out of 5
+      331 - Mapping the Swaps
+      10012 - How Big Is It?
+      165 - Stamps
+      167 - The Sultan's Successors
+      10001 - Garden of Eden
+      140 - Bandwidth
+      193 - Graph Coloring
+      208 - Firetruck
+    Backtracking - Hard
+      10123 - No Tipping
+      10160 - Servicing Stations
+      197 - Cube
+      185 - Roman Numerals
+      307 - Sticks
+      317 - Hexagon
+      387 - A Puzzling Problem
+      519 - Puzzle (II)
+      529 - Addition Chains
+      565 - Pizza Anyone?
+      502 - DEL command
+      322 - Ships
+    Implicit Graph Traversal
+      10603 - Fill
+      10422 - Knights in FEN
+      10085 - The most distant state
+      310 - L--system
+      321 - The New Villa
+      704 - Colour Hash
+    Hashing / Sets
+      188 - Perfect Hash
+      10282 - Babelfish
+      10391 - Compound Words
+      10125 - Sumsets
+      10887 - Concatenation of Languages
+      141 - The Spot Game
+      10591 - Happy Number
+    Rujia Liu's Problems for Beginners
+      11218 - KTV
+      11198 - Dancing Digits
+      10274 - Fans and Gems
+      11210 - Chinese Mahjong
+      10624 - Super Number
+  Volume 4. Algorithm Design
+    10905 - Children's Game
+    10763 - Foreign Exchange
+    10132 - File Fragmentation
+    270 - Lining Up
+    10341 - Solve It
+    10057 - A mid-summer night's dream.
+    10706 - Number Sequence
+    10487 - Closest Sums
+    10340 - All in All
+    10700 - Camel trading
+    10026 - Shoemaker's Problem
+    311 - Packets
+    10020 - Minimal coverage
+    10714 - Ants
+    10954 - Add All
+    714 - Copying Books
+    10602 - Editor Nottoobad
+    10400 - Game Show Math
+    10718 - Bit Mask
+    11054 - Wine trading in Gergovia
+    10382 - Watering Grass
+    10670 - Work Reduction
+    10720 - Graph Construction
+    993 - Product of digits
+    10716 - Evil Straw Warts Live
+    11100 - The Trip, 2007
+    10245 - The Closest Pair Problem
+    11129 - An antiarithmetic permutation
+    10041 - Vito's Family
+    507 - Jill Rides Again
+    108 - Maximum Sum
+    10827 - Maximum sum on a torus
+    757 - Gone Fishing
+    10148 - Advertisement
+  Volume 5. Dynamic Programming
+    111 - History Grading
+    103 - Stacking Boxes
+    10405 - Longest Common Subsequence
+    674 - Coin Change
+    10003 - Cutting Sticks
+    116 - Unidirectional TSP
+    10131 - Is Bigger Smarter?
+    10066 - The Twin Towers
+    10192 - Vacation
+    147 - Dollars
+    357 - Let Me Count The Ways
+    562 - Dividing coins
+    348 - Optimal Array Multiplication Sequence
+    624 - CD
+    10130 - SuperSale
+    531 - Compromise
+    10465 - Homer Simpson
+    10285 - Longest Run on a Snowboard
+    437 - The Tower of Babylon
+    10404 - Bachet's Game
+    620 - Cellular Structure
+    825 - Walking on the Safe Side
+    10069 - Distinct Subsequences
+    10534 - Wavio Sequence
+    10051 - Tower of Cubes
+    10651 - Pebble Solitaire
+    590 - Always on the run
+    10306 - e-Coins
+    10739 - String to Palindrome
+    10304 - Optimal Binary Search Tree
+    10271 - Chopsticks
+    10617 - Again Palindrome
+    11137 - Ingenuous Cubrency
+    10154 - Weights and Measures
+    10201 - Adventures in Moving - Part IV
+    10453 - Make Palindrome
+    10029 - Edit Step Ladders
+    10313 - Pay the Price
+    10401 - Injured Queen Problem
+    10891 - Game of Sum
+    11151 - Longest Palindrome
+    10911 - Forming Quiz Teams
+    10635 - Prince and Princess
+    10564 - Paths through the Hourglass
+    662 - Fast Food
+    10626 - Buying Coke
+    10118 - Free Candies
+    607 - Scheduling Lectures
+    10604 - Chemical Reaction
+    10913 - Walking on a Grid
+    11008 - Antimatter Ray Clearcutting
+    10723 - Cyborg Genes
+    11258 - String Partition
+    10599 - Robots(II)
+    10817 - Headmaster's Headache
+    10163 - Storage Keepers
+    709 - Formatting Text
+    10280 - Old Wine Into New Bottles
+    10558 - A Brief Gerrymander
+    11081 - Strings
+  Volume 6. Mathematical Concepts and Methods
+    138 - Street Numbers
+    10006 - Carmichael Numbers
+    128 - Software CRC
+    106 - Fermat vs. Pythagoras
+    10673 - Play with Floor and Ceil
+    11121 - Base -2
+    10791 - Minimum Sum LCM
+    10717 - Mint
+    10820 - Send a Table
+    571 - Jugs
+    11029 - Leading and Trailing
+    10023 - Square root
+    10308 - Roads in the North
+    10105 - Polynomial Coefficients
+    10375 - Choose and divide
+    11027 - Palindromic Permutation
+    10056 - What is the Probability ?
+    10491 - Cows and Cars
+    10759 - Dice Throwing
+    542 - France '98
+    10277 - Boastin' Red Socks
+    10169 - Urn-ball Probabilities!
+    11181 - Probability|Given
+    557 - Burger
+    10900 - So you want to be a 2n-aire?
+    11176 - Winning Streak
+    10417 - Gift Exchanging
+    10183 - How Many Fibs?
+    10303 - How Many Trees?
+    10518 - How Many Calls?
+    10862 - Connect the Cable Wires
+    10334 - Ray Through Glasses
+    10229 - Modular Fibonacci
+    763 - Fibinary Numbers
+    10236 - The Fibonacci Primes
+    991 - Safe Salutations
+    10079 - Pizza Cutting
+    10940 - Throwing cards away II
+    10359 - Tiling
+    10519 - !! Really Strange !!
+    10918 - Tri Tiling
+    11069 - A Graph Problem
+    10910 - Marks Distribution
+    10254 - The Priest Mathematician
+    10328 - Coin Toss
+    10157 - Expressions
+    10247 - Complete Tree Labeling
+    10516 - Another Counting Problem
+    10128 - Queue
+    10081 - Tight Words
+    10943 - How do you add?
+    10721 - Bar Codes
+    10912 - Simple Minded Hashing
+    10616 - Divisible Group Sums
+    11125 - Arrange Some Marbles
+    10205 - Stack 'em Up
+    701 - The Archeologists' Dilemma
+    696 - How Many Knights
+    254 - Towers of Hanoi
+    10994 - Simple Addition
+    306 - Cipher
+    10570 - Meeting with Aliens
+  Volume 7. Graph Algorithms and Implementation Techniques
+    567 - Risk
+    10034 - Freckles
+    10048 - Audiophobia
+    10397 - Connect the Campus
+    10369 - Arctic Network
+    658 - It's not a Bug, it's a Feature!
+    10099 - The Tourist Guide
+    10801 - Lift Hopping
+    10986 - Sending email
+    558 - Wormholes
+    515 - King
+    104 - Arbitrage
+    125 - Numbering Paths
+    10803 - Thunder Mountain
+    10330 - Power Transmission
+    10806 - Dijkstra, Dijkstra.
+    11045 - My T-shirt suits me
+    753 - A Plug for UNIX
+    563 - Crimewave
+    10746 - Crime Wave - The Sequel
+    10594 - Data Flow
+    10985 - Rings'n'Ropes
+    10608 - Friends
+    10158 - War
+    10269 - Adventure of Super Mario
+    10273 - Eat or Not to Eat?

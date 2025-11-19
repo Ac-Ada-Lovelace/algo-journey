@@ -1,0 +1,1289 @@
+AOAPC I: Beginning Algorithm Contests -- Training Guide (Rujia Liu)
+  Chapter 1. Algorithm Design
+    General Problem Solving Techniques
+      Examples
+        11292 - Dragon of Loowater
+        11729 - Commando War
+        11300 - Spreading the Wealth
+        1388 - Graveyard
+        10881 - Piotr's Ants
+        1030 - Image Is Everything
+        11464 - Even Parity
+        1352 - Colored Cubes
+        11210 - Chinese Mahjong
+        11384 - Help is needed for Dexter
+        10795 - A Different Task
+        12124 - Assemble
+        12097 - Pie
+        11520 - Fill the Square
+        1267 - Network
+        1335 - Beijing Guards
+      Exercises: Beginner
+        11636 - Hello World!
+        11039 - Building designing
+        1339 - Ancient Cipher
+        1368 - DNA Consensus String
+        10970 - Big Chocolate
+        10340 - All in All
+        10382 - Watering Grass
+        1346 - Songs
+        1508 - Equipment
+        1509 - Leet
+        10012 - How Big Is It?
+        10020 - Minimal coverage
+        10026 - Shoemaker's Problem
+        10317 - Equating Equations
+        10318 - Security Panel
+        10670 - Work Reduction
+        1523 - Helicopter
+        1555 - Garland
+        1533 - Moving Pegs
+        110 - Meta-Loopless Sorts
+        120 - Stacks of Flapjacks
+        254 - Towers of Hanoi
+        311 - Packets
+        434 - Matty's Blocks
+        669 - Defragment
+        757 - Gone Fishing
+        769 - Magic of David Copperfield
+        812 - Trade on Verweggistan
+        140 - Bandwidth
+        165 - Stamps
+        225 - Golygons
+        269 - Counting Patterns
+        387 - A Puzzling Problem
+        471 - Magic Numbers
+        524 - Prime Ring Problem
+        585 - Triangles
+        654 - Ratio
+        656 - Optimal Programs
+        687 - Lattice Practices
+        817 - According to Bartjens
+        818 - Cutting Chains
+      Exercises: Intermediate
+        10905 - Children's Game
+        1422 - Processor
+        11627 - Slalom
+        11134 - Fabled Rooks
+        11100 - The Trip, 2007
+        1344 - Tian Ji -- The Horse Racing
+        11389 - The Bus Driver Problem
+        1418 - WonderTeam
+        1153 - Keep the Customer Satisfied
+        1419 - Ugly Windows
+        1420 - Priest John's Busiest Day
+        1445 - Cubist Artwork
+        1421 - Archery
+        1377 - Ruler
+        1354 - Mobile Computing
+        1374 - Power Calculus
+        10037 - Bridge
+        10602 - Editor Nottoobad
+        10716 - Evil Straw Warts Live
+        11127 - Triple-Free Binary Strings
+        10120 - Gift?!
+        10123 - No Tipping
+        10366 - Faucet Flow
+        10396 - Vampire Numbers
+        10479 - The Hendrie Sequence
+        10483 - The Sum Equals the Product
+        10570 - Meeting with Aliens
+        10609 - Fractal
+        10624 - Super Number
+        10729 - Treequivalence
+        10747 - Maximum Subsequence
+        10771 - Barbarian tribes
+        11012 - Cosmic Cabbages
+        11106 - Rectilinear Polygon
+        11269 - Setting Problems
+        11387 - The 3-Regular Graph
+        11714 - Blind Sorting
+        11776 - Oh Your Royal Greediness!
+        11920 - 0 s, 1 s and ? Marks
+        11986 - Save from Radiation
+        1554 - Binary Search
+        1531 - Problem Bee
+        668 - Parliament
+        714 - Copying Books
+        211 - The Domino Effect
+        219 - Department of Redundancy Department
+        229 - Scanner
+        279 - Spin
+        307 - Sticks
+        322 - Ships
+        502 - DEL command
+        510 - Optimal Routing
+        519 - Puzzle (II)
+        529 - Addition Chains
+        589 - Pushing Boxes
+        609 - Metal Cutting
+        646 - The Gourmet Club
+        649 - You Who?
+        690 - Pipeline Scheduling
+        764 - Pentominos
+        770 - Puncher
+        772 - Divide et unita
+        798 - Tile Puzzle
+      Exercises: Advanced
+        1450 - Airport
+        1467 - Installations
+        1316 - Supermarket
+        1491 - Compress the String
+        12326 - Yummy Triangular Pizza
+        10825 - Anagram and Multiplication
+        10639 - Square Puzzle
+        1355 - Bingo
+        1295 - Houses Divided
+        1448 - Hobby on Rails
+        10383 - Queen vs Rook
+        10411 - Another Game of Tetris
+        10414 - Denki Blocks
+        10492 - Optimal Mastermind Strategy
+        10571 - Products
+        10605 - Mines For Diamonds
+        10628 - Quadrills
+        10632 - Pyramid
+        10833 - Lunar Forest
+        11694 - Gokigen Naname
+        11794 - Dazzling Puzzle
+        11846 - Finding Seats Again
+        10272 - DDR King
+        10471 - Can't be too GREEDY
+        10640 - Planes around the World
+        10658 - ReArrange
+        10675 - Revenge of Faucet Flow
+        10786 - Qualify for the Champions League
+        10904 - Structural Equivalence
+        11006 - Wheel Good
+        11041 - Quarter-Finals with Brazil!? No!!!
+        11129 - An antiarithmetic permutation
+        11142 - MineSweeper II
+        11184 - Joyful Ride
+        11251 - Fractions
+        11268 - Reliable Network
+        11318 - Marble Game
+        11445 - Water Tanks EXTREME
+        11522 - Pyramid Number
+        11527 - Morning Walk
+        11570 - Sudoku without numbers?
+        11630 - Cyclic antimonotonic permutations
+        11814 - Stack Machine
+        11925 - Generating Permutations
+        12011 - Complete the Set
+        1535 - Lost Lists
+        1536 - Coins
+        135 - No Rectangles
+        605 - The Rotating Disk
+        608 - Counterfeit Dollar
+        799 - Safari Holiday
+    Designing Efficient Algorithms
+      Examples
+        11462 - Age Sort
+        11078 - Open Credit System
+        11549 - Calculator Conundrum
+        1398 - Meteor
+        1121 - Subsequence
+        1330 - City Game
+        1382 - Distant Galaxy
+        10755 - Garbage Heap
+        1326 - Jurassic Remains
+      Exercises: Beginner
+        10125 - Sumsets
+        10763 - Foreign Exchange
+        10391 - Compound Words
+        11054 - Wine trading in Gergovia
+        1312 - Cricket Field
+        10535 - Shooter
+        10730 - Antiarithmetic?
+        10810 - Ultra-QuickSort
+        221 - Urban Elevations
+        517 - Word
+      Exercises: Intermediate
+        1325 - Hypertransmission
+        10827 - Maximum sum on a torus
+        1451 - Average
+        12265 - Selling Land
+        1432 - Fire-Control System
+        1312 - Cricket Field
+        1481 - Genome Evolution
+        1392 - DNA Regions
+        1442 - Cav
+        1381 - Balancing the Scale
+        12174 - Shuffle
+        1511 - Soju
+        12121 - You are around me ...
+        10132 - File Fragmentation
+        10691 - Subway
+        11589 - Save the President
+        11536 - Smallest Sub-Array
+        11572 - Unique Snowflakes
+        1548 - The Game of Master-Mind
+        1526 - Edge Detection
+      Exercises: Advanced
+        1468 - Restaurant
+        1444 - Knowledge for the masses
+    Dynamic Programming
+      Examples
+        1394 - And Then There Was One
+        10635 - Prince and Princess
+        10891 - Game of Sum
+        11825 - Hackers' Crackdown
+        10859 - Placing Lampposts
+        1169 - Robotruck
+        1099 - Sharing Chocolate
+      Exercises: Beginner
+        11584 - Partitioning by Palindromes
+        1424 - Salesmen
+        10534 - Wavio Sequence
+        11552 - Fewest Flops
+        11404 - Palindromic Subsequence
+        1456 - Cellular Network
+        11795 - Mega Man's Mission
+        1452 - Jump
+        1366 - Martian Mining
+        10564 - Paths through the Hourglass
+        10817 - Headmaster's Headache
+        1292 - Strategic game
+        1351 - String Compression
+        1291 - Dance Dance Revolution
+        1252 - Twenty Questions
+        10163 - Storage Keepers
+        10453 - Make Palindrome
+        10254 - The Priest Mathematician
+        437 - The Tower of Babylon
+        442 - Matrix Chain Multiplication
+        473 - Raucous Rockers
+        590 - Always on the run
+        607 - Scheduling Lectures
+        662 - Fast Food
+        672 - Gangsters
+      Exercises: Intermediate
+        12260 - Free Goodies
+        1427 - Parade
+        1407 - Caves
+        12235 - Help Bubu
+        11600 - Masud Rana
+        1474 - Evacuation Plan
+        12222 - Mountain Road
+        12223 - Moving to Nuremberg
+        1414 - Hanoi Towers
+        1347 - Tour
+        12080 - Pesky Heroes
+        1379 - Pitcher Rotation
+        1370 - Roommate
+        1371 - Period
+        1372 - Log Jumping
+        1299 - Frontier
+        1331 - Minimax Triangulation
+        1390 - Interconnect
+        1484 - Alice and Bob's Trip
+        12105 - Bigger is Better
+        10003 - Cutting Sticks
+        10239 - The Book-shelver's Problem
+        10271 - Chopsticks
+        10304 - Optimal Binary Search Tree
+        10599 - Robots(II)
+        10604 - Chemical Reaction
+        10618 - Tango Tango Insurrection
+        10641 - Barisal Stadium
+        10671 - Grid Speed
+        10688 - The Poor Giant
+        11263 - Nested Rectangles
+        11400 - Lighting System Design
+        11578 - Situp Benches
+        11691 - Allergy Test
+        11766 - Racing Car Computer
+        12002 - Happy Birthday
+        10723 - Cyborg Genes
+        10934 - Dropping water balloons
+        10981 - String Morphing
+        11307 - Alternative Arborescence
+        11456 - Trainsorting
+        11782 - Optimal Cut
+        1534 - Taekwondo
+        1543 - Telescope
+      Exercises: Advanced
+        1437 - String painter
+        1439 - Exclusive Access 2
+        1412 - Fund Management
+        1443 - Garlands
+        1380 - A Scheduling Problem
+        12099 - The Bookcase
+        1496 - Peach Blossom Spring
+        1375 - The Best Name for Your Baby
+        1405 - The Ultimate Password
+        1297 - The Minimum Number of Rooks
+        1320 - Bundling
+        1322 - Minimizing Maximizer
+        1336 - Fixing the Great Wall
+        12170 - Easy Climb
+        10559 - Blocks
+        1228 - Integer Transmission
+        11521 - Compressor
+        10949 - Kids in a Grid
+        11193 - Infinix
+        11194 - Stone Grid
+        11810 - Gentle ping, to the old King
+        11171 - SMS
+        11435 - Network EXTREME!!!
+        11502 - Rocket Stages
+        11750 - Red-Blue Tree
+        11803 - The Great Merger
+  Chapter 2. Mathematics
+    Basic Problems
+      11388 - GCD LCM
+      11889 - Benefit
+      10943 - How do you add?
+      10780 - Again Prime? No Time.
+      10892 - LCM Cardinality
+      11752 - The Super Powers
+      11076 - Add Again
+      11609 - Teams
+      12050 - Palindrome Numbers
+      11489 - Integer Game
+      10791 - Minimum Sum LCM
+      11461 - Square Numbers
+      1319 - Maximum
+      1315 - Crazy tea party
+      10339 - Watching Watches
+      10367 - Equations
+      10586 - Polynomial Remains
+      10693 - Traffic Volume
+      10726 - Coco Monkey
+      10773 - Back to Intermediate Math
+      10995 - Educational Journey
+      11029 - Leading and Trailing
+      11314 - Hardly Hard
+      1530 - Floating Point Numbers
+      1529 - Clock
+      244 - Train Time
+      278 - Chess
+      591 - Box of Bricks
+      616 - Coconuts, Revisited
+      617 - Nonstop Travel
+      618 - Doing Windows
+      783 - Trains
+      797 - Two Way Traffic
+      808 - Bee Breeding
+    Counting
+      Examples
+        11538 - Chess Queen
+        11401 - Triangle Counting
+        11806 - Cheerleaders
+        1362 - Exploring Pyramids
+        11361 - Investigating Div-Sum Property
+        1073 - Glenbow Museum
+        10253 - Series-Parallel Networks
+      Exercises: Beginner
+        11038 - How Many O's?
+        10883 - Supermean
+        1510 - Neon Sign
+        1350 - Pinary
+        11645 - Bits
+        10079 - Pizza Cutting
+        10081 - Tight Words
+        10157 - Expressions
+        10312 - Expression Bracketing
+        10497 - Sweet Child Makes Trouble
+        417 - Word Index
+        580 - Critical Mass
+      Exercises: Intermediate
+        1393 - Highways
+        12075 - Counting Triangles
+        11529 - Strange Tax Calculation
+        12123 - Magnetic Train Tracks
+        1436 - Counting heaps
+        11481 - Arrange the Numbers
+        1425 - Metal
+        10237 - Bishops
+        10128 - Queue
+        10458 - Cricket Ranking
+        10623 - Thinking Backward
+        10712 - Count the Numbers
+        11290 - Gangs
+        11421 - Arranging Cards
+        11885 - Number of Battlefields
+        12034 - Race
+        12508 - Triangles in the Grid
+        10574 - Counting Rectangles
+        10581 - Partitioning for fun and profit
+        10593 - Kites
+        10843 - Anne's game
+        10844 - Bloques
+        11123 - Counting Trapizoid
+        11133 - Eigensequence
+        766 - Sum of powers
+      Exercises: Advanced
+        11139 - Counting Quadrilaterals
+        10884 - Persephone
+        1485 - Permutation Counting
+        1478 - Delta Wave
+        1489 - Math teacher's homework
+        1430 - Binary Integer
+        10743 - Blocks on Blocks
+        11379 - Chichi's Home Work
+        11625 - Nice Prefixes
+        10643 - Facing Problem With Trees
+        10694 - Combinatorial Summation
+        10824 - Regular Polygon
+        11303 - Permutations
+        11915 - Recurrence
+        12037 - Musical Chair
+    Number Theory
+      Examples
+        1069 - Always an integer
+        11426 - GCD - Extreme (II)
+        11754 - Code Feat
+        11916 - Emoogle Grid
+      Exercises: Beginner
+        10673 - Play with Floor and Ceil
+        11490 - Just Another Problem
+        11728 - Alternate Task
+        10692 - Huge Mods
+        10951 - Polynomial GCD
+        1415 - Gauss Prime
+        10061 - How many zero's and how many digits ?
+        10090 - Marbles
+        10110 - Light, more light
+        10127 - Ones
+        10140 - Prime Distance
+        10368 - Euclid's Game
+        10515 - Powers Et Al.
+        10539 - Almost Prime Numbers
+        10560 - Minimum Weight
+        10622 - Perfect P-th Powers
+        10710 - Chinese Shuffle
+        11105 - Semi-prime H-numbers
+        138 - Street Numbers
+        294 - Divisors
+        463 - Polynomial Factorization
+        467 - Synching Signals
+        550 - Multiplying by Rotation
+        701 - The Archeologists' Dilemma
+        718 - Skyscraper Floors
+        756 - Biorhythms
+      Exercises: Intermediate
+        11768 - Lattice Point or Not
+        1426 - Discrete Square Roots
+        1431 - Cryptography Reloaded
+        1521 - GCD Guessing Game
+        11014 - Make a Crystal
+        1126 - Payment System
+        12119 - The Bells are Ringing
+        1404 - Prime k-tuple
+        1323 - Vivian's Problem
+        1341 - Different Digits
+        1363 - Joseph's Problem
+        1434 - YAPTCHA
+        10162 - Last Digit
+        10236 - The Fibonacci Primes
+        10413 - Crazy Savages
+        10548 - Find the Right Changes
+        10555 - Dead Fraction
+        10620 - A Flea on a Chessboard
+        10627 - Infinite Race
+        10837 - A Research Problem
+        11237 - Halloween treats
+        11440 - Help Tomisu
+        11657 - Rational Billiard
+        10542 - Hyper-drive
+        10831 - Gerg's Cake
+        11024 - Circular Lock
+        11246 - K-Multiple Free set
+        11256 - Repetitive Multiple
+        11317 - GCD+LCM
+        12009 - Avaricious Maryanna
+        1549 - Lattice Point
+        1550 - Coin Exchange
+        1538 - Poly-polygonal Numbers
+        1539 - Rational Approximation
+      Exercises: Advanced
+        12253 - Simple Encryption
+        1503 - Ji-Tu Problem
+        1435 - Business Cards
+    Game Theory
+      Examples
+        1482 - Playing With Stones
+        10561 - Treblecross
+      Exercises: Beginner
+        12293 - Box Game
+        11892 - ENimEN
+        11927 - Games Are Important
+        10165 - Stone Game
+        11534 - Say Goodbye to Tic-Tac-Toe
+        847 - A Multiplication Game
+        1557 - Calendar Game
+        1559 - Nim
+        1558 - Number Game
+      Exercises: Intermediate
+        12163 - Addition-Subtraction Game
+        1378 - A Funny Stone Game
+        11249 - Game
+        1566 - John
+      Exercises: Advanced
+        1500 - Alice and Bob
+        11758 - Left Right
+        12033 - Game of CS
+        12370 - Game of Connect
+        1567 - A simple stone game
+        1561 - Cycle Game
+    Probability
+      Examples
+        11021 - Tribles
+        11722 - Joining with Friend
+        11427 - Expect the Expected
+        11762 - Race to 1
+      Exercises: Beginner
+        12230 - Crossing Rivers
+        11181 - Probability|Given
+        10491 - Cows and Cars
+        10900 - So you want to be a 2n-aire?
+        10288 - Coupons
+        11291 - Smeech
+        11346 - Probability
+        1541 - To Bet or Not To Bet
+        542 - France '98
+        557 - Burger
+      Exercises: Intermediate
+        11637 - Garbage Remembering Exam
+        11605 - Lights inside a 3d Grid
+        10417 - Gift Exchanging
+        10529 - Dumb Bones
+        11176 - Winning Streak
+        11971 - Polygon
+      Exercises: Advanced
+        1498 - Activation
+        1413 - Game
+        1300 - Parallel Expectations
+        12164 - The Great Game
+        11429 - Randomness
+    Permutation
+      Examples
+        10294 - Arif in Dhaka (First Love Part 2)
+        12103 - Leonardo's Notebook
+        11077 - Find the Permutations
+        1156 - Pixel Shuffle
+      Exercises: Beginner
+        10601 - Cubes
+        11774 - Doom's Day
+        10733 - The Colored Cubes
+        239 - Tempus et mobilius. Time and motion
+        306 - Cipher
+      Exercises: Intermediate
+        11330 - Andy's Shoes
+        11255 - Necklace
+        1016 - Silly Sort
+        716 - Commedia dell' arte
+      Exercises: Advanced
+        11540 - Sultan's Chandelier
+        12387 - Alphabet Soup
+        11924 - Unlock the Winning Pot
+        11118 - Prisoners, Boxes and Pieces of Paper
+        11698 - Code Permutations
+    Matrix & System of Linear Equations
+      Examples
+        10870 - Recurrences
+        1386 - Cellular Automaton
+        10828 - Back to Kernighan-Ritchie
+        11542 - Square
+      Exercises: Beginner
+        10655 - Contemplation! Algebra
+        11149 - Power of Matrix
+        1560 - Extended Lights Out
+        10689 - Yet another Number Sequence
+        11551 - Experienced Endeavour
+        1546 - Complete the sequence!
+        472 - Simultaneous Equations
+        684 - Integral Determinant
+      Exercises: Intermediate
+        10808 - Rational Resistors
+        1397 - The Teacher's Side of Math
+        1564 - Widget Factory
+        1563 - SETI
+        1562 - Balanced Chemical Equations
+        1551 - Cog-Wheels
+        11651 - Krypton Number System
+        720 - Hares and Foxes
+      Exercises: Advanced
+        1332 - Kid's Problem
+        11778 - Graph Coloring in HSL
+    Numerical Methods
+      Examples
+        10341 - Solve It
+        1476 - Error Curves
+        1356 - Bridge
+      Exercises: Beginner
+        10668 - Expanding Rods
+        10385 - Duathlon
+        10693 - Traffic Volume
+        10428 - The Roots
+        1524 - Hot or Cold?
+        474 - Heads / Tails Probability
+      Exercises: Intermediate
+        1487 - Volume
+        1403 - Tough Water Level
+        1429 - Timer
+        11102 - Moonshine
+        10228 - A Star not a Tree?
+      Exercises: Advanced
+        12413 - Big Decimal Calculator
+        10631 - Normals
+        10727 - Practice
+        11102 - Moonshine
+        11120 - Very Funny Mr. Feynman
+        11702 - Meltdown
+        11901 - Ellipse Hazard
+  Chapter 3. Data Structures
+    Fundamental Data Structures
+      Examples
+        11995 - I Can Guess the Data Structure!
+        11991 - Easy Problem from Rujia Liu?
+        1203 - Argus
+        11997 - K Smallest Sums
+        1160 - X-Plosives
+        1329 - Corporative Network
+      Exercises: Beginner
+        11988 - Broken Keyboard (a.k.a. Beiju Text)
+        11136 - Hoax or what
+        10588 - Queuing at the doctors
+        10410 - Tree Reconstruction
+        10895 - Matrix Transpose
+        246 - 10-20-30
+        514 - Rails
+        536 - Tree Recovery
+        548 - Tree
+      Exercises: Intermediate
+        12232 - Exclusive-OR
+        11987 - Almost Union-Find
+        12130 - Summits
+        12096 - The SetStack Computer
+        10273 - Eat or Not to Eat?
+        305 - Joseph
+        501 - Black Box
+        540 - Team Queue
+        586 - Instant Complexity
+      Exercises: Advanced
+        1517 - Tracking RFIDs
+    Maintaining Interval Data
+      Examples
+        1428 - Ping pong
+        11235 - Frequent values
+        1400 - "Ray, Pass me the dishes!"
+        11992 - Fast Matrix Operations
+      Exercises: Beginner
+        12086 - Potentiometers
+        1513 - Movie collection
+        12299 - RMQ with Shifts
+        1232 - SKYLINE
+        11525 - Permutation
+        11402 - Ahoy, Pirates!
+      Exercises: Intermediate
+        1455 - Kingdom
+        1493 - Draw a Mess
+        1492 - Adding New Machine
+        1406 - A Sequence of Numbers
+        10869 - Brownie Points II
+        11423 - Cache Simulator
+        11898 - Killer Problem
+        11983 - Weird Advertisement
+      Exercises: Advanced
+        1520 - Flights
+    String Algorithms
+      Examples
+        1401 - Remember the Word
+        11732 - "strcmp()" Anyone?
+        1328 - Period
+        1449 - Dominating Patterns
+        11468 - Substring
+        11019 - Matrix Matcher
+        11107 - Life Forms
+        12206 - Stammering Aliens
+      Exercises: Beginner
+        11488 - Hyper Prefix Sets
+        1519 - Dictionary Size
+        1399 - Puzzle
+        10298 - Power Strings
+        10887 - Concatenation of Languages
+        11475 - Extend to Palindrome
+        12338 - Anti-Rhyme Pairs
+        1556 - Disk Tree
+        257 - Palinwords
+        261 - The Window Property
+        282 - Rename
+        475 - Wild Thing
+      Exercises: Intermediate
+        1385 - Billing Tables
+        1314 - Hidden Password
+        1076 - Password Suspects
+        10829 - L-Gap Substrings
+        1358 - Generator
+        1462 - Fuzzy Google Suggest
+        10526 - Intellectual Property
+        11557 - Code Theft
+        11855 - Buzzwords
+        11888 - Abnormal 89's
+        12012 - Detection of Extraterrestrial
+        719 - Glass Beads
+      Exercises: Advanced
+        1470 - Casting Spells
+        1502 - GRE Words
+        1441 - Accountant notes
+    Binary Search Trees
+      Examples
+        11020 - Efficient Solutions
+        1479 - Graph and Queries
+        11922 - Permutation Transformer
+        11996 - Jewel Magic
+      Exercises: Beginner
+        1264 - Binary Search Tree
+        1402 - Robotic Sort
+        1471 - Defense Lines
+        11688 - Rotate to root
+        10821 - Constructing BST
+        1525 - Falling Leaves
+        10909 - Lucky Number
+      Exercises: Intermediate
+        12329 - Very Boring Homework
+        1365 - Wild West
+        11672 - Dynamic Summation
+      Exercises: Advanced
+        12419 - Heap Manager
+        12538 - Version Controlled IDE
+        11989 - Cake Cutting
+  Chapter 4. Geometry
+    Basic Problems
+      11437 - Triangle Fun
+      11800 - Determine the Shape
+      11646 - Athletics Track
+      11817 - Tunnelling the Earth
+      1473 - Dome of Circus
+      11524 - InCircle
+      11731 - Ex-circles
+      10566 - Crossed Ladders
+      11186 - Circum Triangle
+      12165 - Triangle Hazard
+      1447 - Malfatti Circles
+      10347 - Medians
+      10439 - Temple of Dune
+      10522 - Height to Area
+      194 - Triangle
+      438 - The Circumference of the Circle
+    Geometric Computations in 2D
+      Examples
+        11178 - Morley's Theorem
+        1342 - That Nice Euler Circuit
+        11796 - Dog Distance
+        12304 - 2D Geometry 110 in 1!
+        1308 - Viva Confetti
+      Exercises: Beginner
+        1301 - Fishnet
+        10969 - Sweet Dream
+        10075 - Airlines
+        10335 - Ray Inside a Polygon
+        10556 - Biometrics
+        10585 - Center of symmetry
+        11928 - The Busy Dog
+        361 - Cops and Robbers
+        503 - Parallelepiped walk
+        303 - Pipe
+        313 - Intervals
+        800 - Crystal Clear
+      Exercises: Intermediate
+        11177 - Fighting Against a Polygonal Monster
+        11978 - Fukushima Nuclear Blast
+        1359 - Hills
+        1463 - Largest Empty Circle on a Segment
+        10321 - Polygon Intersection
+        10809 - Great Circle
+        10867 - Cutting a Polygon
+        10915 - War on Weather
+        203 - Running Lights Visibility Calculator
+        217 - Radio Direction Finder
+        319 - Pendulum
+        421 - Polygonal Puzzle
+      Exercises: Advanced
+        1003 - Can't Cut Down the Forest for the Trees
+        1017 - Merrily, We Roll Along!
+        11188 - A Strange Opera House
+        12306 - My SketchUp
+        12309 - A Strange Opera House II
+        12314 - The Cleaning Robot
+        11037 - Point of View in Flatland
+        11746 - Finding the Transmitter Again
+    Geometric Algorithms in 2D
+      Examples
+        10652 - Board Wrapping
+        11168 - Airport
+        10256 - The Great Divide
+        1453 - Squares
+        1396 - Most Distant Point from the Sea
+        1298 - Triathlon
+        1475 - Jungle Outpost
+        1318 - Monster Trap
+        1340 - Find the Border
+        12296 - Pieces and Discs
+      Exercises: Beginner
+        1303 - Wall
+        1304 - Art Gallery
+        10084 - Hotter Colder
+        12307 - Smallest Enclosing Rectangle
+        10245 - The Closest Pair Problem
+        11072 - Points
+        11265 - The Sultan's Problem
+        588 - Video Surveillance
+        754 - Treasure Hunt
+        811 - The Fortified Forest
+      Exercises: Intermediate
+        11726 - Crime Scene
+        11595 - Crossing Streets EXTREME
+        1334 - Art of War
+        1506 - Running relay
+        1446 - Origami Through-Hole
+        11277 - Cyclic Polygons
+        11612 - Sultan and Khairun Shundori
+        11681 - Tower for Cellular Telephony
+        12016 - Herbicide
+        427 - FlatLand Piano Movers
+        667 - Fence
+        802 - Lead or Gold
+        819 - Gifts Large and Small
+        823 - Stopper Stumper
+      Exercises: Advanced
+        12311 - All-Pair Farthest Points
+        10095 - Saving the Planet
+        10204 - Adventures in Moving - Part V
+        10456 - Intelligent Cats
+        11243 - Texas Trip
+        11740 - How Dark Can it Be?
+        11756 - Bounded by Lines
+        691 - Triangle Partition
+        805 - Polygon Intersections
+    Geometric Computations and Algorithms in 3D
+      Examples
+        11275 - 3D Triangles
+        1469 - Ardenia
+        1438 - Asteroids
+        1100 - Paperweight
+      Exercises: Beginner
+        1373 - How I Wonder What You Are!
+        1333 - Model Rocket Height
+        1360 - Model Rocket Height
+        10794 - The Deadly Olympic Returns!!!
+        11836 - Star War
+        415 - Sunrise
+        535 - Globetrotter
+        578 - Polygon Puzzler
+        659 - Reflections
+      Exercises: Intermediate
+        1337 - Inherit the Spheres
+        1483 - Intersection of Two Prisms
+        1433 - Aerodynamics
+        1488 - Shade of Hallelujah Mountain
+        1313 - Ghost Busters
+        1338 - Crossing Prisms
+        10495 - Conic Distance
+        10517 - Wind of Change!
+        11334 - Antenna in the Cinoc Mountains
+        1545 - The Bulk
+        1547 - Direct Visibility
+        420 - Supercomputer Selection, The Sequel
+        809 - Bullet Hole
+        813 - Robot
+      Exercises: Advanced
+        11887 - Tetrahedrons and Spheres
+        12313 - A Tiny Raytracer
+        12305 - Polishing a Extruded Polygon
+        12308 - Smallest Enclosing Box
+        12513 - Safe Places
+        11289 - Friend or Foe?
+        11580 - Finding the Transmitter
+        11807 - Dumb Eucelics' Pyramid Walk
+  Chapter 5. Graph Theory
+    Fundamentals
+      Examples
+        11624 - Fire!
+        10047 - The Monocycle
+        10054 - The Necklace
+        1423 - Guess
+      Exercises: Beginners
+        10441 - Catenyms
+        11573 - Ocean Currents
+        11748 - Rigging Elections
+        436 - Arbitrage (II)
+        515 - King
+        532 - Dungeon Master
+        534 - Frogger
+        538 - Balancing Bank Accounts
+        705 - Slash Maze
+        707 - Robbery
+        810 - A Dicey Problem
+        816 - Abbott's Revenge
+      Exercises: Intermediate
+        10457 - Magic Car
+        10607 - Siege
+        10798 - Be wary of Roses
+        10941 - Words adjustment
+        10968 - KuPellaKeS
+        11165 - Galactic Travel
+        11853 - Paintball
+        258 - Mirror Maze
+        308 - Tin Cutter
+        1568 - Domino Puzzle
+        359 - Sex Assignments And Breeding Experiments
+        715 - Substitution Cipher
+        1569 - Multiple
+      Exercises: Advanced
+        11175 - From D to E and Back
+        12017 - Imitation
+    DFS (Depth First Search)
+      Examples
+        1364 - Knights of the Round Table
+        1108 - Mining Your Own Business
+        12167 - Proving Equivalences
+        11324 - The Largest Clique
+        1146 - Now or later
+        1391 - Astronauts
+      Exercises: Beginners
+        11396 - Claw Decomposition
+        1357 - Cells
+        10765 - Doves and bombs
+        11294 - Wedding
+        10319 - Manhattan
+        11080 - Place the Guards
+        11504 - Dominos
+        610 - Street Directions
+      Exercises: Intermediate
+        1086 - The Ministers' Major Mess
+        1361 - Cactus
+        10972 - RevolC FaeLoN
+        1514 - Piece it together
+        11604 - General Sultan
+        12273 - Palindromic DNA
+        1310 - One-way traffic
+        10510 - Cactus
+        11098 - Battle II
+        11930 - Rectangles
+      Exercises: Advanced
+        1466 - String Phone
+        1464 - Traffic Real Time Query System
+        1116 - Puzzle
+    Shortest Paths
+      Examples
+        11374 - Airport Express
+        10917 - Walk Through the Forest
+        1416 - Warfare And Logistics
+        10537 - The Toll! Revisited
+        11090 - Going in Cycle!!
+        11478 - Halum
+        1078 - Steam Roller
+        1048 - Low Cost Air Travel
+        1376 - Animal Run
+      Exercises: Beginners
+        10603 - Fill
+        10269 - Adventure of Super Mario
+        11367 - Full Tank?
+        11280 - Flying to Fredericton
+        10246 - Asterix and Obelix
+        558 - Wormholes
+        658 - It's not a Bug, it's a Feature!
+      Exercises: Intermediate
+        1348 - Tomato Automata
+        1516 - Smoking gun
+        1518 - Train delays
+        10342 - Always Late
+        10740 - Not the Best
+        10841 - Lift Hopping in the Real World
+        10967 - The Great Escape
+      Exercises: Advanced
+        12227 - Wormholes
+        1311 - Servers
+        1321 - Dice contest
+        1057 - Routing
+        1081 - The Return of Carl
+        1089 - Suffix-Replacement Grammars
+        1097 - Rain
+        10381 - The Rock
+    Minimal Spanning Tree and Variants
+      Examples
+        1494 - Qin Shi Huang's National Road System
+        11354 - Bond
+        11865 - Stream My Contest
+      Exercises: Beginners
+        1395 - Slim Span
+        10600 - ACM Contest and Blackout
+        11183 - Teen Girl Squad
+        10816 - Travel in Desert
+        10938 - Flea circus
+        11747 - Heavy Cycle Edges
+        544 - Heavy Cargo
+      Exercises: Intermediate
+        10369 - Arctic Network
+        1265 - Tour Belt
+        12275 - Sensor network
+        1504 - Genghis Khan the Conqueror
+      Exercises: Advanced
+        1537 - Picnic Planning
+    Bipartite Graph Matching
+      Examples
+        1411 - Ants
+        11383 - Golden Tiger Claw
+        1006 - Fixed Partition Memory Management
+        1175 - Ladies' Choice
+        11419 - SAM I AM
+        12083 - Guardian of Decency
+        1201 - Taxi Cab Scheme
+      Exercises: Beginners
+        1045 - The Great Wall Game
+        1349 - Optimal Bus Route Design
+        12168 - Cat vs. Dog
+      Exercises: Intermediate
+        10615 - Rooks
+        1327 - King's Quest
+        1459 - Flowers Placement
+        10735 - Euler Circuit
+        10888 - Warehouse
+        11119 - Chemical Attraction
+      Exercises: Advanced
+        10418 - Hyper Toy Soldiers
+        10630 - Millennium Ceremony
+    Network Flows
+      Examples
+        11248 - Frequency Hopping
+        1324 - Bring Them There
+        1306 - The K-League
+        10779 - Collectors Problem
+        11613 - Acme Corporation
+      Exercises: Beginners
+        10806 - Dijkstra, Dijkstra.
+        1345 - Jamie's Contact Groups
+        1161 - Objective: Berlin
+        12125 - March of the Penguins
+        1212 - Duopoly
+        1317 - Concert Hall Scheduling
+        1486 - Transportation
+        10249 - The Grand Dinner
+        10380 - Shogi Tournament
+        11380 - Down Went The Titanic
+        563 - Crimewave
+      Exercises: Intermediate
+        11167 - Monkeys in the Emei Mountain
+        11082 - Matrix Decompressing
+        1440 - Inspection
+        12092 - Paint the Roads
+        1515 - Pool construction
+        12264 - Risk
+        1369 - Travel
+        11544 - Recruiter's Problem
+        11594 - All Pairs Maximum Flow
+        11603 - Its all about the Bandwidth
+      Exercises: Advanced
+        1389 - Hard Life
+        1104 - Chips Challenge
+        11700 - Pipes
+  Chapter 6. Selected Topics
+    Dynamic Programming on Borderline
+      Examples
+        11270 - Tiling Dominoes
+        1214 - Manhattan Wiring
+        10572 - Black & White
+      Exercises: Beginners
+        12117 - ACM Puzzles
+        1408 - Flight Control
+      Exercises: Intermediate
+        11741 - Ignore the Blocks
+        11443 - Tree in a Grid
+        10531 - Maze Statistics
+        11531 - Solve the Broken Maze
+      Exercises: Advanced
+        11276 - Magical Seven
+        1094 - Channel
+        1501 - Construct the Great Wall
+    Advanced Data Structure Topics
+      Examples
+        11297 - Census
+        11990 - ``Dynamic'' Inversion
+        12003 - Array Transformer
+      Exercises: Beginners
+        12074 - The Ultimate Bamboo Eater
+        1417 - Traffic Jam
+        12345 - Dynamic len(set(a[L:R]))
+        1465 - Searchlights
+      Exercises: Intermediate
+        1383 - Harmony Forever
+        12389 - Cybercrime Donut Investigation
+        1490 - Let the light guide us
+      Exercises: Advanced
+        1480 - Jewel
+        1472 - Hanging Hats
+        11607 - Cutting Cakes
+        12312 - Bounding Volume Hierarchy
+        1106 - Machine Works
+    Brute Force
+      Examples
+        12112 - Iceman
+        1085 - House of Cards
+        1309 - Sudoku
+      Exercises: Beginners
+        1063 - Marble Game
+        1343 - The Rotation Game
+        10838 - The Pawn Chess
+        12180 - The Game
+        1461 - Sudoku Extension
+        1499 - Gem And Prince
+        1505 - Flood-it!
+        12569 - Planning mobile robot on Tree (EASY Version)
+        10274 - Fans and Gems
+        10422 - Knights in FEN
+        10536 - Game of Euler
+        1565 - Stake Your Claim
+        704 - Colour Hash
+        751 - Triangle War
+      Exercises: Intermediate
+        1041 - cNteSahruPfefrlefe
+        11212 - Editing a Book
+        12558 - Egyptian Fractions (HARD version)
+        1495 - Three Kingdom Chess
+        10358 - Matrix
+        10384 - The Wall Pushers
+        10704 - Traffic!
+        11376 - Tilt!
+        11501 - Laurel Creek
+        11513 - 9 Puzzle
+      Exercises: Advanced
+        1353 - Organize Your Train
+        12418 - Game of 999
+        11211 - Digital Logic
+        11213 - Flipull
+        1008 - A Vexing Problem
+        11208 - Airplane Scheduling
+        12570 - Qualle? Quale?
+        11772 - A Bee Love Story
+    Selected Topics in Geometry
+      Examples
+        1102 - Affine Mess
+        1077 - The Sky is the Limit
+        1367 - Nuclear Plants
+        1065 - Raising the Roof
+        1075 - Painter
+        11921 - Save the Princess
+        1060 - Collecting Luggage
+      Exercises: Beginners
+        1497 - A Letter to Programmers
+        12237 - Jiajia's Robot
+        1138 - Roof
+        10514 - River Crossing
+        10760 - Translation or rotation
+        12029 - Flying Spaceships
+        688 - Mobile Phone Coverage
+      Exercises: Intermediate
+        1409 - Go to Class
+        1387 - Driving Directions
+        1507 - Shadow
+        10613 - Mushroom Misery
+        10762 - Treasure Castle
+        248 - Cutting Corners
+      Exercises: Advanced
+        1014 - Toil for Oil
+        11425 - Collecting Luggage EXTREME!!!
+        12565 - Lovely Magical Curves
+        1288 - Shortest Flight Path
+    Selected Topics in Mathematics
+      Examples
+        11017 - A Greener World
+        1384 - Interesting Yang Hui Triangle
+        1457 - Decrypt Messages
+        12298 - Super Poker II
+        10498 - Happiness
+      Exercises: Beginners
+        11640 - Mayor Election
+        1059 - Jacquard Circuits
+        12076 - Unequalled Consumption
+        1305 - Chocolate
+      Exercises: Intermediate
+        12327 - Xavier is Learning to Count
+        1410 - Expensive Drink
+        12512 - Cross-Shaped Tests
+      Exercises: Advanced
+        12344 - Jewel Transportation
+        12434 - Infinite Stable Integer
+        12567 - Never7, Ever17 and Water
+        10089 - Repackaging
+    Writing and Debugging Complex Codes
+      Examples
+        10966 - 3KP-BASH Project
+        12233 - Final Combat
+      Exercises: Beginners
+        1024 - A Linking Loader
+        1087 - Struts and Springs
+        1458 - Exciting Time
+        12014 - Fudan Extracurricular Lives
+        1477 - Snooker Referee
+        1294 - Mini-Spreadsheet
+        1296 - Hotline
+        12412 - A Typical Homework (a.k.a Shi Xiong Bang Bang Mang)
+        10741 - Magic Cube
+        11717 - Energy Saving Microcontroller
+        11956 - Brainfuck
+        10467 - Parse Tree
+        10584 - Text Formalization
+        10996 - Go
+        1544 - Simple Arithmetics
+        1527 - Instruens Fabulam
+        1528 - Reserve Bookshelf
+        163 - City Directions
+        206 - Meals on Wheels Routing System
+        207 - PGA Tour Prize Money
+        210 - Concurrency Simulator
+        214 - Code Generation
+        226 - MIDI Preprocessing
+        253 - Cube painting
+        316 - Stars
+        320 - Border
+        346 - Getting Chorded
+        449 - Majoring in Scales
+        508 - Morse Mismatches
+        509 - RAID!
+        512 - Spreadsheet Tracking
+        513 - Window Frames
+        533 - Equation Solver
+        592 - Island of Logic
+        603 - Parking Lot
+        765 - References
+        803 - Page Selection by Keyword Matching
+        804 - Petri Net Simulation
+        806 - Spatial Structures
+        807 - Towers of Powers
+        814 - The Letter Carrier's Rounds
+        815 - Flooded!
+        822 - Queue and A
+      Exercises: Intermediate
+        10757 - Interpreting SQL
+        1454 - Sizeof
+        1293 - Symbolic Derivation
+        1307 - Equals are Equals
+        1512 - ASCII Expression
+        10612 - Paper Folding
+        10155 - Green Eggs and Ham
+        11575 - Zerg Rush!!!
+        1540 - Checker's Check
+        1542 - BSP Trees
+        1532 - A Well-Formed Problem
+        1553 - Buffer Manager
+        212 - Use of Hospital Facilities
+        252 - Trucking
+        281 - Rubik's Cube
+        292 - Presentation Error
+        293 - Bits
+        330 - Inventory Maintenance
+        396 - Top Dog
+        611 - Parallel Deadlock
+      Exercises: Advanced
+        1055 - Pockets
+        1460 - Game Simulator
+        12417 - Formula Editor
+        12421 - (Jiandan) Mua (I) - Lexical Analyzer
+        12422 - (Kengdie) Mua (II) - Expression Evaluator
+        12423 - (Last) Mua(III) - Full Interpreter
+        11886 - Infinite Dictionaries
+        1552 - Interactive Permutation Guessing
+        304 - Department

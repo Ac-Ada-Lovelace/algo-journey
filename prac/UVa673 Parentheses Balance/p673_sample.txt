@@ -1,0 +1,10 @@
+Sample Input:
+3
+([])
+(([()])))
+([()[]()])()
+
+Sample Output:
+Yes
+No
+Yes

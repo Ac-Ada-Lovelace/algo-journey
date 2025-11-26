@@ -2,5 +2,7 @@
 *.o
 *.bin
 
+solve_try
+solve_try_2
 build/
 output/

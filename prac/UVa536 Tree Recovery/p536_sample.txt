@@ -1,0 +1,7 @@
+Sample Input:
+DBACEGF ABCDEFG
+BCAD CBAD
+
+Sample Output:
+ACBFGED
+CDAB

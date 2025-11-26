@@ -1,0 +1,48 @@
+1600
+
+Patrol Robot
+
+A robot has to patrol around a rectangular area which is in a form of m × n grid (m rows and n
+columns). The rows are labeled from 1 to m. The columns are labeled from 1 to n. A cell (i, j) denotes
+the cell in row i and column j in the grid. At each step, the robot can only move from one cell to an
+adjacent cell, i.e. from (x, y) to (x + 1, y), (x, y + 1), (x − 1, y) or (x, y − 1). Some of the cells in the
+grid contain obstacles. In order to move to a cell containing obstacle, the robot has to switch to turbo
+mode. Therefore, the robot cannot move continuously to more than k cells containing obstacles.
+Your task is to write a program to find the shortest path (with the minimum number of cells) from
+cell (1, 1) to cell (m, n). It is assumed that both these cells do not contain obstacles.
+
+Input
+The input consists of several data sets. The first line of the input file contains the number of data sets
+which is a positive integer and is not bigger than 20. The following lines describe the data sets.
+For each data set, the first line contains two positive integer numbers m and n separated by space
+(1 ≤ m, n ≤ 20). The second line contains an integer number k (0 ≤ k ≤ 20). The i-th line of the next
+m lines contains n integer aij separated by space (i = 1, 2, . . . , m; j = 1, 2, . . . , n). The value of aij is
+‘1’ if there is an obstacle on the cell (i, j), and is ‘0’ otherwise.
+
+Output
+For each data set, if there exists a way for the robot to reach the cell (m, n), write in one line the integer
+number s, which is the number of moves the robot has to make; ‘-1’ otherwise.
+
+Sample Input
+3
+2 5
+0
+0 1 0 0 0
+0 0 0 1 0
+4 6
+1
+0 1 1 0 0 0
+0 0 1 0 1 1
+0 1 1 1 1 0
+0 1 1 1 0 0
+2 2
+0
+0 1
+1 0
+
+Sample Output
+7
+10
+-1
+
+

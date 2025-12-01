@@ -1,0 +1,32 @@
+11212
+
+Editing a Book
+
+You have n equal-length paragraphs numbered 1 to n. Now you want to arrange them in the order of
+1, 2, . . . , n. With the help of a clipboard, you can easily do this: Ctrl-X (cut) and Ctrl-V (paste) several
+times. You cannot cut twice before pasting, but you can cut several contiguous paragraphs at the same
+time - they’ll be pasted in order.
+For example, in order to make {2, 4, 1, 5, 3, 6}, you can cut 1 and paste before 2, then cut 3 and
+paste before 4. As another example, one copy and paste is enough for {3, 4, 5, 1, 2}. There are two
+ways to do so: cut {3, 4, 5} and paste after {1, 2}, or cut {1, 2} and paste before {3, 4, 5}.
+
+Input
+The input consists of at most 20 test cases. Each case begins with a line containing a single integer n
+(1 < n < 10), thenumber of paragraphs. The next line contains a permutation of 1, 2, 3, . . . , n. The
+last case is followed by a single zero, which should not be processed.
+
+Output
+For each test case, print the case number and the minimal number of cut/paste operations.
+
+Sample Input
+6
+2 4 1 5 3 6
+5
+3 4 5 1 2
+0
+
+Sample Output
+Case 1: 2
+Case 2: 1
+
+

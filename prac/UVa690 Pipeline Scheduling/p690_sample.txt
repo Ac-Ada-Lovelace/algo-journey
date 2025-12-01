@@ -1,0 +1,11 @@
+Sample Input:
+7
+X...XX.
+.X.....
+..X....
+...X...
+......X
+0
+
+Sample Output:
+34

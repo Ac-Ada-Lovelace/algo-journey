@@ -1,0 +1,10 @@
+Sample Input:
+2
+2
+0
+3
+3 12 17 23
+
+Sample Output:
+3
+3

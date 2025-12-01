@@ -1,0 +1,10 @@
+Sample Input:
+2
+8
+2
+-2 0
+
+Sample Output:
+wsenenws
+Found 1 golygon(s).
+Found 0 golygon(s).

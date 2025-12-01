@@ -1,0 +1,8 @@
+Sample Input:
+2
+2 3 4 2
+96 97 199 62
+
+Sample Output:
+2 2
+9859 62

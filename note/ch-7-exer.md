@@ -1,30 +1,13 @@
-第七章章末习题列表（Brute Force）（摘自
-Beginning*Algorithm_Contests*(Second_Edition).md）
+• 这里按“先易后难、覆盖多种技巧”给出优先顺序（批次），便于逐步补齐：
 
-- 208 Firetruck
-- 225 Golygons
-- 211 The Domino Effect
-- 818 Cutting Chains
-- 690 Pipeline Scheduling
-- 12113 Overlapping Squares
-- 12558 Egyptian Fractions (HARD version)
-- 12107 Digit Puzzle
-- 1604 Cubic Eight-Puzzle
-- 11214 Guarding the Chessboard
-- 12569 Planning mobile robot on Tree (EASY Version)
-- 1533 Moving Pegs
-- 817 According to Bartjens
-- 307 Sticks
-- 11882 Biggest Number
-- 11846 Finding Seats Again
-- 11694 Gokigen Naname
-- 10384 The Wall Pushers
+- 先做（练经典剪枝/枚举，短平快）
+  1. UVa307 Sticks（经典回溯+剪枝）
+  2. UVa817 According to Bartjens（枚举/搜索，规模小）
+  3. UVa12107 Digit Puzzle（状态搜索，约束小）
+  4. UVa11846 Finding Seats Again（模拟/搜索，复杂度可控）
+- 中期（强化搜索技巧，稍重）5) UVa818 Cutting Chains（回溯+图/集合剪枝）6) UVa11214 Guarding the Chessboard（放置/状态压缩或搜索）7) UVa11882 Biggest Number（搜索+剪枝/贪心组合）
+- 偏难（大状态或特殊建模，需要更多时间）8) UVa690 Pipeline Scheduling（已在仓库，可做复盘/优化，如果未通过可重写）9) UVa12569 Planning mobile robot on Tree (EASY Version)（树上 BFS/状态压缩）10) UVa1533 Moving Pegs（棋盘状态搜索/位运算）
+- 难度高（高阶暴力/状态空间大，建议留到最后）11) UVa1604 Cubic Eight-Puzzle（三维/多空位，状态爆炸，需强剪枝）12) UVa12558 Egyptian Fractions (HARD version)（深搜+大剪枝，坑多）13) UVa10384 The Wall Pushers（复杂搜索/路径规划，代码量与调试成本高）
 
-建议练习顺序（难度为个人经验，属推测）
-
-- 先做：208、225、211、690、307、1604（经典 DFS/回溯，搜索空间小，练手好
-  上手）。
-- 进阶：818、12113、12107、11214、12569、1533、817（需要更精细的剪枝或状态
-  设计）。
-- 可选压轴：12558、11882、11846、11694、10384（搜索状态大或构造复杂，耗时长，适
-  合充裕时间再攻克）。
+如果想快速提升完成数，先完成“先做”批次；有精力再按顺序推进中期→偏难→高阶。需要
+我先拉哪个题的 PDF/目录或整理题面，告诉我编号即可。

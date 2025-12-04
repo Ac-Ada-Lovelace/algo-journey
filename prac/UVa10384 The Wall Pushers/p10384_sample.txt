@@ -1,0 +1,6 @@
+Sample Input:
+2 3
+10 2 10 10 2 6
+
+Sample Output:
+NESESEENNWNWWWWW

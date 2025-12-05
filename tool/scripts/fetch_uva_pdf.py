@@ -231,7 +231,7 @@ def main() -> int:
     sample_path = folder_path / f"p{args.uva_id}_sample.txt"
     #
     # create solve_try.cpp in same folder
-    solve_try_path = folder_path / "solve_try.cpp"
+    solve_try_path = folder_path / f"uva_{args.uva_id}_solve_try.cpp"
     if not solve_try_path.exists():
         header_url = problem_url or url
         if not problem_url:

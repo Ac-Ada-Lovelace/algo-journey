@@ -1,0 +1,68 @@
+11134
+
+Fabled Rooks
+
+We would like to place n rooks, 1 ≤ n ≤ 5000, on a n × n board
+subject to the following restrictions
+• The i-th rook can only be placed within the rectangle given
+by its left-upper corner (xli , yli ) and its right-lower corner
+(xri , yri ), where 1 ≤ i ≤ n, 1 ≤ xli ≤ xri ≤ n, 1 ≤ yli ≤
+yri ≤ n.
+• No two rooks can attack each other, that is no two rooks
+can occupy the same column or the same row.
+
+Input
+The input consists of several test cases. The first line of each of
+them contains one integer number, n, the side of the board. n lines follow giving the rectangles where
+the rooks can be placed as described above. The i-th line among them gives xli , yli , xri , and yri . The
+input file is terminated with the integer ‘0’ on a line by itself.
+
+Output
+Your task is to find such a placing of rooks that the above conditions are satisfied and then output n
+lines each giving the position of a rook in order in which their rectangles appeared in the input. If there
+are multiple solutions, any one will do. Output ‘IMPOSSIBLE’ if there is no such placing of the rooks.
+
+Sample Input
+8
+1 1 2 2
+5 7 8 8
+2 2 5 5
+2 2 5 5
+6 3 8 6
+6 3 8 5
+6 3 8 8
+3 6 7 8
+8
+1 1 2 2
+5 7 8 8
+2 2 5 5
+2 2 5 5
+6 3 8 6
+6 3 8 5
+6 3 8 8
+3 6 7 8
+0
+
+Universidad de Valladolid OJ: 11134 – Fabled Rooks
+
+Sample Output
+1 1
+5 8
+2 4
+4 2
+7 3
+8 5
+6 6
+3 7
+1 1
+5 8
+2 4
+4 2
+7 3
+8 5
+6 6
+3 7
+
+2/2
+
+

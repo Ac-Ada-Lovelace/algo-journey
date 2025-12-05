@@ -1,0 +1,9 @@
+Sample Input:
+4
+
+Sample Output:
+2 2 2
+AB
+CC
+zz
+zz

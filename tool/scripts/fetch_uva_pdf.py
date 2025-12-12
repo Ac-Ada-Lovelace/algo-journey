@@ -10,6 +10,7 @@ import json
 import os
 import pathlib
 import re
+import ssl
 import subprocess
 import sys
 import urllib.error
@@ -29,12 +30,51 @@ def build_uva_url(uva_id: int) -> str:
     return f"https://onlinejudge.org/external/{group}/{uva_id}.pdf"
 
 
-def download_pdf(url: str) -> bytes:
+def download_pdf(url: str, context: Optional[ssl.SSLContext] = None) -> bytes:
     request = urllib.request.Request(
         url, headers={"User-Agent": "Mozilla/5.0 (Codex PDF fetcher)"}
     )
-    with urllib.request.urlopen(request) as response:
+    with urllib.request.urlopen(request, context=context) as response:
         return response.read()
+
+
+def download_with_http_fallback(url: str) -> Tuple[bytes, str]:
+    try:
+        return download_pdf(url), url
+    except urllib.error.HTTPError as exc:
+        primary_error = f"HTTP {exc.code}"
+        primary_exc: Exception = exc
+    except urllib.error.URLError as exc:
+        primary_error = str(exc.reason)
+        primary_exc = exc
+    else:
+        primary_error = ""
+        primary_exc = RuntimeError("unreachable")
+
+    if url.startswith("https://"):
+        fallback = "http://" + url[len("https://") :]
+        print(
+            f"[warn] 通过 HTTPS 下载失败（{primary_error}），尝试 HTTP: {fallback}",
+            file=sys.stderr,
+        )
+        try:
+            return download_pdf(fallback), fallback
+        except urllib.error.HTTPError as exc:
+            print(f"[error] HTTP 回退仍失败（HTTP {exc.code}）: {fallback}", file=sys.stderr)
+            raise
+        except urllib.error.URLError as exc:
+            # 某些环境会强制将 http 重定向到 https，导致继续触发证书错误
+            if isinstance(exc.reason, ssl.SSLError):
+                insecure_ctx = ssl._create_unverified_context()
+                print(
+                    "[warn] HTTP 回退被重定向到 HTTPS 且证书无效，尝试忽略证书校验一次",
+                    file=sys.stderr,
+                )
+                return download_pdf(fallback, context=insecure_ctx), fallback
+            print(f"[error] 无法连接 UVA: {exc.reason}", file=sys.stderr)
+            raise
+
+    raise primary_exc
 
 
 def find_title_in_catalogs(
@@ -218,7 +258,7 @@ def main() -> int:
 
     url = build_uva_url(args.uva_id)
     try:
-        data = download_pdf(url)
+        data, final_url = download_with_http_fallback(url)
     except urllib.error.HTTPError as exc:
         print(f"[error] 下载失败（HTTP {exc.code}）: {url}", file=sys.stderr)
         return 1
@@ -233,7 +273,7 @@ def main() -> int:
     # create solve_try.cpp in same folder
     solve_try_path = folder_path / f"uva_{args.uva_id}_solve_try.cpp"
     if not solve_try_path.exists():
-        header_url = problem_url or url
+        header_url = problem_url or final_url
         if not problem_url:
             print(
                 "[warn] 未找到题面 URL，solve_try.cpp 将写入 PDF 链接",
@@ -276,7 +316,7 @@ def main() -> int:
         if sample_path.exists():
             sample_path.unlink()
 
-    print(f"[ok] 已保存 {url} -> {pdf_path}")
+    print(f"[ok] 已保存 {final_url} -> {pdf_path}")
     return 0
 
 

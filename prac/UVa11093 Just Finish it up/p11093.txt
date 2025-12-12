@@ -1,0 +1,40 @@
+11093
+
+Just Finish it up
+
+Along a circular track, there are N gas stations, which are numbered clockwise from 1 up to N . At
+station i, there are pi gallons of petrol available. To race from station i to its clockwise neighbor one
+need qi gallons of petrol. Consider a race where a car will start the race with an empty fuel tank. Your
+task is to find whether the car can complete the race from any of the stations or not. If it can then
+mention the smallest possible station i from which the lap can be completed.
+
+Input
+First line of the input contains one integer T the number of test cases. Each test case will start with a
+line containing one integer N , which denotes the number of gas stations. In the next few lines contain
+2 ∗ N integers. First N integers denote the values of pi s (petrol available at station i), subsequent N
+integers denote the value of qi s (amount of patrol needed to go to the next station in the clockwise
+direction).
+
+Output
+For each test case, output the case number in the format “Case c:” , where c is the case number starting
+form 1. Then display whether it is possible to complete a lap by a car with an empty tank or not. If it
+is not possible to complete the lap then display “Not possible”. If possible, then display “Possible
+from station X”, where X is the first possible station from which the car can complete the lap.
+Constraints
+• T < 25
+• N < 100001
+
+Sample Input
+2
+5
+1 1 1 1 1
+1 1 2 1 1
+7
+1 1 1 10 1 1 1
+2 2 2 2 2 2 2
+
+Sample Output
+Case 1: Not possible
+Case 2: Possible from station 4
+
+

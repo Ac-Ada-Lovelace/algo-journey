@@ -1,0 +1,75 @@
+1609
+
+Foul Play
+
+A European soccer tournament has n participating teams. In the first round, n/2 matches are played
+such that each team plays against one other team. After every round, only the winning teams advance
+to the next round. In the second round, n/4 matches are played such that each first-round winner plays
+against one other first-round winner. Eventually, only two teams are left to play a final match. The
+winner of the final match is the champion of the tournament.
+
+The Dutch soccer team is probably not the best team in the world. However, they are still a pretty
+good team. They can easily win from at least half of the other teams. Moreover, for every team t that
+the Dutch cannot beat in a direct confrontation, there is another team t′ that beats t, but is beaten by
+the Dutch team.
+The Dutch coach wants to manipulate the tournament such that the Dutch team will become
+champion. He happens to know, for each pair of teams, which team would certainly win if a match was
+played between them.
+Problem
+For each two teams, you know beforehand which one would win if they played against each other.
+(Since this is a knock-out tournament, no ties will occur.) Furthermore, you know for sure that your
+favourite team can beat at least half of the other teams, and for every team t that your favourite team
+cannot beat, there is a team t′ that beats t but is itself beaten by your favourite team.
+Determine a tournament schedule such that your favourite team wins the tournament.
+
+Input
+For each test case, the input is as follows:
+• One line containing the number of teams n, where n is a power of two and 2 ≤ n ≤ 1024. Teams
+are numbered from 1 to n, where team 1 is your favourite team.
+• n lines, each containing a string of n binary digits.
+The k-th digit on the j-th line is ‘1’ if team j would certainly win from team k, otherwise it is ‘0’.
+A team cannot play against itself, therefore the j-th digit on the j-th line is ‘0’.
+If j ̸= k, the k-th digit on the j-th line is diﬀerent from the j-th digit on the k-th line.
+
+Universidad de Valladolid OJ: 1609 – Foul Play
+
+2/2
+
+Output
+For each test case, print n − 1 lines of output, specifying a tournament schedule that ensures victory
+for team 1.
+The first n/2 lines describe the first round of the tournament. The next n/4 lines describe the
+second round, if any, etc. The last line describes the final match.
+Each line contains two integers x and y, indicating that team x plays a match against team y.
+If there are multiple tournament schedules where team 1 wins, any one of those tournament schedules
+will be accepted as a correct answer.
+
+Sample Input
+4
+0110
+0011
+0000
+1010
+8
+00111010
+10101111
+00010010
+01000101
+00110010
+10101011
+00010000
+10101010
+
+Sample Output
+1 3
+2 4
+1 2
+1 5
+3 7
+4 8
+2 6
+1 3
+4 2
+1 4
+
+

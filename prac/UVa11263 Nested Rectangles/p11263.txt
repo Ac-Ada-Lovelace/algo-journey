@@ -1,0 +1,56 @@
+11263
+
+Nested Rectangles
+
+Sultan has a rectangle of R rows and C columns. Each cell of this rectangle contains an integer.
+Sultan chooses n subrectangles. The i-th subrectangle has Ri rows and Ci columns and it is nested
+inside (i − 1)-th subrectangle. The first subrectangle is nested inside the initial rectangle. Sultan then
+multiplies all the integers outside the first subrectangle with M0 . Then he multiplies all the integers
+inside ith rectangle but outside (i + 1)-th rectangle with Mi . Then he multiples all the integers inside
+n-th subrectangle with Mn . So he get a new rectangle of integers. The sum of all the integers of this
+new rectangle is S. Help Sultan to choose all this subrectangles in such a way so that S is maximized.
+
+In the above figure, the outer most portion (that is not contained in any of the sub rectangle) is
+multiplied by M0 , the portion inside the first rectangle, but outside the second one by M1 , portion
+inside 2nd and outside 3rd by M2 , and so forth. The portion inside the n-th sub rectangle is multiplied
+by Mn .
+
+Input
+First line of the input contains T (≤ 20) the number of test cases. First line of the each test case
+contains 3 integers R (1 ≤ R ≤ 500), C (1 ≤ C ≤ 500) and n (1 ≤ n ≤ 5). Second line contains
+n integers R1 , R2 , . . . , Rn (R > R1 > R2 > . . . > Rn ). Third line contains n integers C1 , C2 , …, Cn
+(C > C1 > C2 > . . . > Cn ). The values Ri , Ci describes the dimensions of the i-th sub rectangle.
+Fourth line contains n + 1 integers M0 , M1 , . . . , Mn (−10 ≤ Mi ≤ 10), the values of each multiplier.
+Lines 5 to line 4 + R each contain C integers. The j-th integer in the (i + 4)-th line is the number in
+the i-th row and j-th column of the initial rectangle. All the integers in the initial rectangle is between
+-100 to +100 inclusive.
+
+Output
+For each test case output contains one integer denoting the maximum value of S.
+
+Sample Input
+1
+6 6 2
+4 2
+3 1
+0 1 -1
+-1 -1 -1 -1 -1 -1
+
+Universidad de Valladolid OJ: 11263 – Nested Rectangles
+
+-1
+2 2 2 -1 -1
+-1
+2 -1 2 -1 -1
+-1
+2 -1 2 -1 -1
+-1
+2 2 2 -1 -1
+-1 -1 -1 -1 -1 -1
+
+Sample Output
+22
+
+2/2
+
+

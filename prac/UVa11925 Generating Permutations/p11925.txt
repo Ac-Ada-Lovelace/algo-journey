@@ -1,0 +1,39 @@
+11925
+
+Generating Permutations
+
+A permutation on the integers from 1 to n is, simply put, a particular rearrangement of these integers.
+Your task is to generate a given permutation from
+the initial arrangement 1, 2, 3, . . . , n using only two
+simple operations.
+• Operation 1: You may swap the first two numbers. For example, this would change the arrangement 3,2,4,5,1 to 2,3,4,5,1.
+• Operation 2: You may move the first number to the end of the arrangement. For example, this
+would change the arrangement 3,2,4,5,1 to 2,4,5,1,3.
+
+Input
+The input consists of a number of test cases. Each test case begins with a single integer n between 1
+and 300. On the same line, a permutation of integers 1 through n is given where consecutive integers
+are separated by a single space.
+Input is terminated by a line containing ‘0’ which should not be processed.
+
+Output
+For each test case you are to output a string on a single line that describes a sequence of operations. The
+string itself should consist only of the characters ‘1’ and ‘2’. This string should be such that if we start
+with the initial arrangement 1, 2, 3, . . . , n − 1, n and successively apply rules 1 and 2 according to the
+order they appear in the output, then the resulting permutation is identical to the input permutation.
+The output string does not necessarily need to be the shortest such string, but it must be no longer
+than 2n2 characters. If it is possible to generate the permutation using 0 operations, then you may
+simply output a blank line.
+
+Sample Input
+3 2 1 3
+3 2 3 1
+4 4 2 3 1
+0
+
+Sample Output
+1
+2
+12122
+
+

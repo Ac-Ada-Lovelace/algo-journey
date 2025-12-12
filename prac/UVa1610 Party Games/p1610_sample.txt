@@ -1,0 +1,16 @@
+Sample Input:
+4
+FRED
+SAM
+JOE
+MARGARET
+2
+FRED
+FREDDIE
+2
+
+Sample Output:
+K
+FRED
+JF
+LARI

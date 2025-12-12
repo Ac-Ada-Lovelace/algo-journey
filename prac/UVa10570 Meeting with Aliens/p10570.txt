@@ -1,0 +1,38 @@
+10570
+
+Meeting with Aliens
+
+The aliens are in an important meeting just before landing on the earth. All the aliens sit around a
+round table during the meeting. Aliens are numbered sequentially from 1 to N . It’s a precondition of
+the meeting that i’th alien will sit between (i − 1)’th and (i + 1)’th alien. 1st alien will sit between 2nd
+and N ’th alien.
+
+Though the ordering of aliens are fixed but their positions are not fixed. In the above figure two
+valid sitting arrangements of eight aliens are shown. Right before the start of the meeting the aliens
+sometimes face a common problem of not maintaining the proper order. This occurs as no alien has
+a fixed position. Two maintain the proper order, two aliens can exchange their positions. The aliens
+want to know the minimum number of exchange operations necessary to fix the order.
+
+Input
+Input will start with a positive integer, N (3 ≤ N ≤ 500) the number of aliens. In next few lines there
+will be N distinct integers from 1 to N indicating the current ordering of aliens. Input is terminated
+by a case where N = 0. This case should not be processed. There will be not more than 100 datasets.
+
+Output
+For each set of input print the minimum exchange operations required to fix the ordering of aliens.
+
+Sample Input
+4
+1 2 3 4
+4
+4 3 2 1
+4
+2 3 1 4
+0
+
+Sample Output
+0
+0
+1
+
+

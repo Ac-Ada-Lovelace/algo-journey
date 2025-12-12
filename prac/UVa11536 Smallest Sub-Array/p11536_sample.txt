@@ -1,0 +1,8 @@
+Sample Input:
+2
+20 12 4
+20 12 8
+
+Sample Output:
+Case 1: 13
+Case 2: sequence nai

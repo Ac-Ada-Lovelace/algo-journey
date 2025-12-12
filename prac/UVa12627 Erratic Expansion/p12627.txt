@@ -1,0 +1,44 @@
+12627
+
+Erratic Expansion
+
+Piotr found a magical box in heaven. Its magic power is that if you place any red balloon inside it
+then, after one hour, it will multiply to form 3 red and 1 blue colored balloons. Then in the next hour,
+each of the red balloons will multiply in the same fashion, but the blue one will multiply to form 4 blue
+balloons. This trend will continue indefinitely.
+The arrangements of the balloons after the 0-th, 1-st, 2-nd and 3-rd hour are depicted in the following
+diagram.
+
+As you can see, a red balloon in the cell (i, j) (that is i-th row and j-th column) will multiply to
+produce 3 red balloons in the cells (i ∗ 2 − 1, j ∗ 2 − 1), (i ∗ 2 − 1, j ∗ 2), (i ∗ 2, j ∗ 2 − 1) and a blue
+balloon in the cell (i ∗ 2, j ∗ 2). Whereas, a blue balloon in the cell (i, j) will multiply to produce 4 blue
+balloons in the cells (i ∗ 2 − 1, j ∗ 2 − 1), (i ∗ 2 − 1, j ∗ 2), (i ∗ 2, j ∗ 2 − 1) and (i ∗ 2, j ∗ 2). The grid size
+doubles (in both the direction) after every hour in order to accommodate the extra balloons.
+In this problem, Piotr is only interested in the count of the red balloons; more specifically, he would
+like to know the total number of red balloons in all the rows from A to B after K-th hour.
+
+Input
+The first line of input is an integer T (T < 1000) that indicates the number of test cases. Each case
+contains 3 integers K, A and B. The meanings of these variables are mentioned above. K will be in
+the range [0, 30] and 1 ≤ A ≤ B ≤ 2K .
+
+Output
+For each case, output the case number followed by the total number of red balloons in rows [A, B] after
+K-th hour.
+
+Sample Input
+3
+0 1 1
+3 1 8
+3 3 7
+
+Universidad de Valladolid OJ: 12627 – Erratic Expansion
+
+Sample Output
+Case 1: 1
+Case 2: 27
+Case 3: 14
+
+2/2
+
+

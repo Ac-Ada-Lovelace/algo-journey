@@ -1,0 +1,10 @@
+Sample Input:
+3
+racecar
+fastcar
+aaadbccb
+
+Sample Output:
+1
+7
+3

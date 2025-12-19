@@ -1,0 +1,10 @@
+Sample Input:
+2
+AAABBCY
+ABBBCDEEY
+GBBY
+YRRGB
+
+Sample Output:
+10
+12

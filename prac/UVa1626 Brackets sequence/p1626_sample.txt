@@ -1,0 +1,6 @@
+Sample Input:
+1
+([(]
+
+Sample Output:
+()[()]

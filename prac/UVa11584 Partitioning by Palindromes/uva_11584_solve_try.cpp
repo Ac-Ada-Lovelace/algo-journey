@@ -28,7 +28,7 @@ int main() {
         }
 
         vector<int> dp(n, INT_MAX);
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             if (is_pal[0][i]) {
                 dp[i] = 1;
             } else {
